@@ -954,7 +954,20 @@
         "编码": "UTF-8",
         "分类url": "https://www.belcoscape.com/"
      }
-    }, 
+    },
+    {
+      "key": "小鸭看看",
+      "name": "小鸭",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./jars/XBPQ.jar",
+      "ext": {
+        "副标题": "",
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类url": "https://xiaoyakankan.com/"
+     }
+    },    
     {
       "key": "曼波动漫",
       "name": "曼波",
@@ -1888,3 +1901,4 @@
   ]
 
 }
+
