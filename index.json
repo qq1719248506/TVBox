@@ -943,20 +943,6 @@
      }
     },    
     {
-      "key": "七点影视",
-      "name": "七点",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "https://gitee.com/abac1984/another-d/raw/master/movie/json/QDYS.json"
-    },
-    {
-      "key": "三九影视",
-      "name": "三九",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "https://gitee.com/abac1984/another-d/raw/master/movie/json/SJYS.json"
-    },
-    {
       "key": "曼波动漫",
       "name": "曼波",
       "type": 3,
@@ -1889,3 +1875,4 @@
   ]
 
 }
+
