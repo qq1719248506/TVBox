@@ -1,5 +1,5 @@
 {
-  "spider": "./spider.jar;md5;0a052ab65e4383413f46e69104c443a8",
+  "spider": "./spider.jar",
   "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
   "logo": "http://127.0.0.1:9978/file/TVBox/logo.png",
   "sites": [
@@ -941,7 +941,7 @@
         "编码": "UTF-8",
         "分类url": "https://www.belcoscape.com/"
      }
-    },    
+    }, 
     {
       "key": "曼波动漫",
       "name": "曼波",
@@ -1873,6 +1873,4 @@
   "ads": [
     "static-mozai.4gtv.tv"
   ]
-
 }
-
