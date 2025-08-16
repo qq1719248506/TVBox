@@ -962,10 +962,13 @@
       "api": "csp_XBPQ",
       "jar": "./jars/XBPQ.jar",
       "ext": {
+        "站名": "小鸭看看",
+        "主页url": "https://xiaoyakankan.com/",
         "副标题": "",
         "请求头": "User-Agent$MOBILE_UA",
         "编码": "UTF-8",
-        "分类url": "https://xiaoyakankan.com/"
+        "分类": "电影$10#电视剧$11#综艺$12#动漫$13#福利$15",
+        "分类url": "https://xiaoyakankan.com/cat/{cateId}-{catePg}.html"
      }
     },    
     {
@@ -1901,4 +1904,5 @@
   ]
 
 }
+
 
