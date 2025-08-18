@@ -930,6 +930,19 @@
       "ext": "https://gitee.com/abac1984/another-d/raw/master/movie/js/CJZW.js?type=url&params=https://gitee.com/abac1984/another-d/raw/master/movie/json/CJJT.json$1$1"
     },
     {
+      "key": "武享吧",
+      "name": "格斗",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./jars/XBPQ.jar",
+      "ext": {
+        "副标题": "",
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类url": "https://www.hula8.net/"
+     }
+    },    
+    {
       "key": "一起看影院",
       "name": "一起",
       "type": 3,
@@ -1888,6 +1901,7 @@
   ]
 
 }
+
 
 
 
