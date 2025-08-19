@@ -928,22 +928,6 @@
       "type": 3,
       "api": "https://gitee.com/abac1984/another-d/raw/master/js/drpy2.min.js",
       "ext": "https://gitee.com/abac1984/another-d/raw/master/movie/js/CJZW.js?type=url&params=https://gitee.com/abac1984/another-d/raw/master/movie/json/CJJT.json$1$1"
-    },
-    {
-      "key": "武享吧",
-      "name": "格斗",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "站名": "武享吧",
-        "主页url": "https://www.hula8.net",
-        "副标题": "",
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "分类": "UFC终极格斗赛$ufc-fighting-championship#UFC格斗之夜$ufc-fight-night#Bellator格斗赛$bellator-fighting-championship#PFL格斗赛$professional-fighters-league#LFA格斗赛$legacy-fighting-alliancelfa#KSW波兰格斗赛$konfrontacja-sztuk-walki#Eagle小鹰赛事$eagle-fighting-championship#俄罗斯ACA赛事$absolute-championship-akhmat",
-"剧情": "空",
-        "分类url": "https://www.hula8.net/fyclass/page/fypage"
-     }
     },    
     {
       "key": "一起看影院",
@@ -1904,6 +1888,7 @@
   ]
 
 }
+
 
 
 
