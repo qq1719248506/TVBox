@@ -942,7 +942,7 @@
         "编码": "UTF-8",
         "分类": "UFC终极格斗赛$ufc-fighting-championship#UFC格斗之夜$ufc-fight-night#Bellator格斗赛$bellator-fighting-championship#PFL格斗赛$professional-fighters-league#LFA格斗赛$legacy-fighting-alliancelfa#KSW波兰格斗赛$konfrontacja-sztuk-walki#Eagle小鹰赛事$eagle-fighting-championship#俄罗斯ACA赛事$absolute-championship-akhmat",
 "剧情": "空",
-        "分类url": "https://www.hula8.net/{cateId}.html/page/{catePg}/"
+        "分类url": "https://www.hula8.net/fyclass/page/fypage"
      }
     },    
     {
@@ -1904,6 +1904,7 @@
   ]
 
 }
+
 
 
 
