@@ -839,6 +839,16 @@
       "filterable": 1
     },
     {
+      "key": "小红影视",
+      "name": "小红",
+      "type": 3,
+      "api": "./py/小红影视.py",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },    
+    {
       "key": "厂长影视",
       "name": "厂长",
       "type": 3,
@@ -1888,6 +1898,7 @@
   ]
 
 }
+
 
 
 
