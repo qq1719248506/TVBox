@@ -18,4 +18,7 @@ https://githubfd.deno.dev/
 
 https://mirror.ghproxy.com/https://raw.githubusercontent.com/
 
-文件md5在线计算：https://www.metools.info/other/md5368.html
+文件md5在线计算
+
+https://www.metools.info/other/md5368.html
+
