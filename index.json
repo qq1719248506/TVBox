@@ -1683,7 +1683,56 @@
       ]
     }
   ],
-  "lives": [],
+  "lives": [
+    {
+      "name": "IPTV-v4",
+      "type": 0,
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u",
+      "ua": "okhttp/3.15",
+      "epg": "https://e.erw.cc/all.xml",
+      "logo": "https://epg.v1.mk/logo/{name}.png"
+    },
+    {
+      "name": "IPTV-result",
+      "type": 0,
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
+      "ua": "okhttp/3.15",
+      "epg": "https://e.erw.cc/all.xml",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "点播",
+      "type": 0,
+      "url": "./json/tv资源.txt",
+      "ua": "okhttp/3.15",
+      "epg": "",
+      "logo": ""
+    },
+    {
+      "name": "Gather",
+      "type": 0,
+      "url": "https://tv.iill.top/m3u/Gather",
+      "ua": "okhttp/3.8.1",
+      "timeout": 20,
+      "playerType": 2
+    },
+    {
+      "name": "Live",
+      "type": 0,
+      "url": "https://tv.iill.top/m3u/Live",
+      "ua": "okhttp/3.8.1",
+      "timeout": 20,
+      "playerType": 2
+    },
+    {
+      "name": "MyTV",
+      "type": 0,
+      "url": "https://tv.iill.top/m3u/MyTV",
+      "ua": "okhttp/3.8.1",
+      "timeout": 20,
+      "playerType": 2
+    }
+  ],  
   "hosts": [
     "cache.ott.*.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
     "cache.ott.ystenlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
@@ -1894,6 +1943,7 @@
   ]
 
 }
+
 
 
 
