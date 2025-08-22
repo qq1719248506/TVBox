@@ -1262,24 +1262,6 @@
         "邵氏片",
         "动画片"
       ]
-    },
-    {
-      "key": "速播",
-      "name": "速播",
-      "type": 1,
-      "api": "https://subocaiji.com/api.php/provide/vod/",
-      "searchable": 1,
-      "changeable": 1,
-      "categories": [
-        "动作片",
-        "科幻片",
-        "恐怖片",
-        "战争片",
-        "纪录片",
-        "大陆剧",
-        "剧情片",
-        "伦理片"
-      ]
     },    
     {
       "key": "360资源",
@@ -1387,6 +1369,20 @@
         "伦理片"
       ]      
     },
+    {
+      "key": "皮皮影视",
+      "name": "皮皮",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "./XBPQ/皮皮影视.json"
+    },    
+    {
+      "key": "速影TV",
+      "name": "速影",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "./XBPQ/速影TV.json"
+    },    
     {
       "key": "速影资源",
       "name": "速影",
@@ -1898,6 +1894,7 @@
   ]
 
 }
+
 
 
 
