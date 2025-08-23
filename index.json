@@ -791,22 +791,6 @@
       "filterable": 0
     },
     {
-      "key": "七七",
-      "name": "七七",
-      "type": 1,
-      "api": "http://6.qqqtv.top/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "推荐",
-        "电影",
-        "电视剧",
-        "综艺",
-        "动漫"
-      ]
-    },
-    {
       "key": "天翼影视",
       "name": "天翼",
       "type": 1,
@@ -944,10 +928,10 @@
       "type": 3,
       "api": "https://gitee.com/abac1984/another-d/raw/master/js/drpy2.min.js",
       "ext": "https://gitee.com/abac1984/another-d/raw/master/movie/js/CJZW.js?type=url&params=https://gitee.com/abac1984/another-d/raw/master/movie/json/CJJT.json$1$1"
-    },    
+    },
     {
-      "key": "一起看影院",
-      "name": "一起",
+      "key": "恐怖片之家",
+      "name": "鬼片",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "./jars/XBPQ.jar",
@@ -955,7 +939,44 @@
         "副标题": "",
         "请求头": "User-Agent$MOBILE_UA",
         "编码": "UTF-8",
-        "分类url": "http://www.lxsgsy.com/"
+        "分类url": "https://www.123guipian.com/;;!"
+     }
+    },
+    {
+      "key": "枝枝影视",
+      "name": "枝枝",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./jars/XBPQ.jar",
+      "ext": {
+        "副标题": "<div class=\"tag text-overflow\">&&</div>",
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类url": "http://zzoc.cc/;;!"
+     }
+    },
+    {
+      "key": "免费影视",
+      "name": "免费",
+      "type": 3,
+      "jar": "./jars/XBPQ.jar",
+      "api": "csp_XBPQ",
+      "ext": {
+        "分类url": "https://www.hangtong168.com/category/33.html;;!"
+      }
+    },    
+    {
+      "key": "小鸭看看",
+      "name": "小鸭",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./jars/XBPQ.jar",
+      "ext": {
+        "分类url": "https://xiaoyakankan.com/cat/{cateId}-{catePg}.html;;!",
+        "分类二次截取": "tab_head\">&&</ul>",
+        "分类数组": "<a&&/a>",
+        "分类标题": ">&&<",
+        "分类ID": "/cat/&&.html"
      }
     },    
     {
@@ -1873,6 +1894,7 @@
   ]
 
 }
+
 
 
 
