@@ -954,34 +954,7 @@
         "编码": "UTF-8",
         "分类url": "http://zzoc.cc/;;!"
      }
-    },
-    {
-      "key": "免费影视",
-      "name": "免费",
-      "type": 3,
-      "jar": "./jars/XBPQ.jar",
-      "api": "csp_XBPQ",
-      "ext": {
-        "副标题": "",
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",        
-        "分类url": "https://www.hangtong168.com/;;!"
-      }
-    },    
-    {
-      "key": "小鸭看看",
-      "name": "小鸭",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jars/XBPQ.jar",
-      "ext": {
-        "分类url": "https://xiaoyakankan.com/cat/{cateId}-{catePg}.html;;!",
-        "分类二次截取": "tab_head\">&&</ul>",
-        "分类数组": "<a&&/a>",
-        "分类标题": ">&&<",
-        "分类ID": "/cat/&&.html"
-     }
-    },    
+    },        
     {
       "key": "星辰影院",
       "name": "星辰",
@@ -1897,6 +1870,7 @@
   ]
 
 }
+
 
 
 
