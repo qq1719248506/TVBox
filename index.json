@@ -962,7 +962,7 @@
       "jar": "./jars/XBPQ.jar",
       "api": "csp_XBPQ",
       "ext": {
-        "分类url": "https://www.hangtong168.com/category/33.html;;!"
+        "分类url": "https://www.hangtong168.com/vodshow/{cateid}--------{catepg}---.html;;!"
       }
     },    
     {
@@ -1894,6 +1894,7 @@
   ]
 
 }
+
 
 
 
