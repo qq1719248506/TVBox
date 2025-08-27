@@ -1361,7 +1361,6 @@
       "name": "皮皮",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "./jars/XBPQ.jar",
       "ext": "./XBPQ/皮皮影视.json"
     },    
     {
@@ -1369,7 +1368,6 @@
       "name": "速影",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "./jars/XBPQ.jar",
       "ext": "./XBPQ/速影TV.json"
     },    
     {
@@ -1870,6 +1868,7 @@
   ]
 
 }
+
 
 
 
