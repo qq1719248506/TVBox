@@ -75,19 +75,6 @@
       }
     },
     {
-      "key": "追忆",
-      "name": "追忆",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppSy",
-      "ext": {
-        "url": "http://110.42.37.69:1866",
-        "key1": "aassddwwxxllsx1x",
-        "key2": "73f330328cc0fe67",
-        "key3": "73f330328cc0fe67"
-      }
-    },
-    {
       "key": "星河",
       "name": "星河",
       "type": 3,
@@ -98,19 +85,6 @@
         "key1": "aassddwwxxllsx1x",
         "key2": "aassddwwxxllsx1x",
         "key3": "aassddwwxxllsx1x"
-      }
-    },
-    {
-      "key": "爱影",
-      "name": "爱影",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppSy",
-      "ext": {
-        "url": "http://110.42.7.59:11822",
-        "key1": "aassddwwxxllsx1x",
-        "key2": "1e765e9b09b4dbba",
-        "key3": "1e765e9b09b4dbba"
       }
     },
     {
@@ -237,6 +211,21 @@
       }
     },
     {
+      "key": "云端",
+      "name": "云端",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://c8k2n5l0i9s8b2m1jj8k2x2l9ff68.ydysapi.cfd:27899",
+        "site": "",
+        "dataKey": "k9o3p2c8b7m3z0o8",
+        "dataIv": "k9o3p2c8b7m3z0o8",
+        "deviceId": "",
+        "version": ""
+      }
+    },    
+    {
       "key": "光影",
       "name": "光影",
       "type": 3,
@@ -321,20 +310,6 @@
         "dataIv": "qkxnwkfjwpcnwycl",
         "deviceId": "",
         "version": ""
-      }
-    },
-    {
-      "key": "爱看",
-      "name": "爱看",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "http://154.37.220.65",
-        "dataKey": "uI1TkPJC8B46AyN3",
-        "dataIv": "uI1TkPJC8B46AyN3",
-        "deviceId": "2112fc5eac600314ba95c4d65da9286b3",
-        "version": "120"
       }
     },
     {
@@ -775,8 +750,8 @@
       "key": "全盘",
       "name": "全盘",
       "type": 3,
-      "api": "https://gitee.com/abac1984/another-d/raw/master/js/drpy2.min.js",
-      "ext": "https://gitee.com/abac1984/another-d/raw/master/cloud/js/QP.js",
+      "api": "./js/lib/drpy2.min.js",
+      "ext": "./js/全盘.js",
       "style": {
         "type": "list"
       }
@@ -926,8 +901,8 @@
       "key": "采集之王",
       "name": "采王",
       "type": 3,
-      "api": "https://gitee.com/abac1984/another-d/raw/master/js/drpy2.min.js",
-      "ext": "https://gitee.com/abac1984/another-d/raw/master/movie/js/CJZW.js?type=url&params=https://gitee.com/abac1984/another-d/raw/master/movie/json/CJJT.json$1$1"
+      "api": "./js/lib/drpy2.min.js",
+      "ext": "./js/采集之王.js?type=url&params=https://gitee.com/abac1984/another-d/raw/master/movie/json/CJJT.json$1$1"
     },
     {
       "key": "恐怖片之家",
@@ -1868,6 +1843,7 @@
   ]
 
 }
+
 
 
 
