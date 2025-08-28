@@ -1380,7 +1380,7 @@
       "type": 1,
       "api": "https://caiji.dbzy.tv/api.php/provide/vod/from/dbm3u8/at/josn/",
       "searchable": 1,
-      "changeable": 1,
+      "categories": [
         "动作片",
         "爱情片",
         "科幻片",
@@ -1869,6 +1869,7 @@
   ]
 
 }
+
 
 
 
