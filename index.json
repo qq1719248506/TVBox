@@ -1360,51 +1360,61 @@
         "剧情片",
         "伦理片"
       ]      
-    },    
+    },
     {
       "key": "速影资源",
       "name": "速影",
-      "type": 1,
-      "api": "https://xn--k5d-suyingtvcom-lc40a84t7o9i3urako0c.suyingok.com/inc/apijson.php",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },    
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./jars/XBPQ.jar",
+      "ext": {
+        "副标题": "",
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类url": "https://xn--k5d-suyingtvcom-lc40a84t7o9i3urako0c.suyingok.com/;;!"
+     }
+    },        
     {
       "key": "豆瓣采集",
       "name": "豆瓣",
       "type": 1,
       "api": "https://caiji.dbzy.tv/api.php/provide/vod/from/dbm3u8/at/josn/",
-      "playerType": 1,
       "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "电影天堂",
-      "name": "天堂",
-      "type": 1,
-      "api": "https://caiji.dyttzyapi.com/api.php/provide/vod/",
-      "playerType": 1,
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "天涯",
-      "name": "天涯",
-      "type": 1,
-      "api": "https://ty.tyyszy5.com/api.php/provide/vod/",
-      "playerType": 1,
-      "searchable": 1,
-      "changeable": 1
+      "changeable": 1,
+        "动作片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "记录片",
+        "台湾剧",
+        "香港剧",
+        "欧美剧",
+        "演唱会",
+        "伦理片"
+      ]      
     },
     {
       "key": "如意",
       "name": "如意",
       "type": 1,
       "api": "https://cj.rycjapi.com/api.php/provide/vod/",
-      "playerType": 1,
       "searchable": 1,
-      "changeable": 1
+      "changeable": 1,
+      "categories": [
+        "动作片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "记录片",
+        "台湾剧",
+        "香港剧",
+        "欧美剧",
+        "伦理片"
+      ]      
     },    
     {
       "key": "量子资源",
@@ -1859,6 +1869,7 @@
   ]
 
 }
+
 
 
 
