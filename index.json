@@ -1360,19 +1360,6 @@
         "剧情片",
         "伦理片"
       ]      
-    },
-    {
-      "key": "速影资源",
-      "name": "速影",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jars/XBPQ.jar",
-      "ext": {
-        "副标题": "",
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "分类url": "https://xn--k5d-suyingtvcom-lc40a84t7o9i3urako0c.suyingok.com/;;!"
-     }
     },        
     {
       "key": "豆瓣采集",
@@ -1635,6 +1622,14 @@
       "logo": ""
     },
     {
+      "name": "伦理",
+      "type": 0,
+      "url": "./json/经典伦理.txt",
+      "ua": "okhttp/3.15",
+      "epg": "",
+      "logo": ""
+    },    
+    {
       "name": "Gather",
       "type": 0,
       "url": "https://tv.iill.top/m3u/Gather",
@@ -1869,6 +1864,7 @@
   ]
 
 }
+
 
 
 
