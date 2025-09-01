@@ -1,5 +1,5 @@
 {
-  "spider": "./spider.jar;md5;7fe266c718fd050aab2f4cfb0b451764",
+  "spider": "./spider.jar;md5;fdd23a5e1468c79562c0bcfe9955047c",
   "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
   "logo": "http://127.0.0.1:9978/file/TVBox/logo.png",
   "sites": [
@@ -1259,7 +1259,66 @@
         "邵氏片",
         "动画片"
       ]
-    },    
+    },
+    {
+      "key": "牛牛资源",
+      "name": "牛牛",
+      "type": 0,
+      "api": "https://api.niuniuzy.me/api.php/provide/vod/at/xml",
+      "searchable": 1,
+      "quickSearch": 1,
+      "categories":[
+        "动作片", 
+        "喜剧片", 
+        "爱情片", 
+        "科幻片", 
+        "恐怖片",
+        "剧情片", 
+        "战争片", 
+        "动画片", 
+        "纪录片", 
+        "邵氏电影", 
+        "4K电影", 
+        "国产剧", 
+        "海外剧",
+        "影视解说", 
+        "伦理", 
+        "港台三级", 
+        "韩国伦理",
+        "西方伦理", 
+        "日本伦理", 
+        "古装仙侠", 
+        "年代穿越", 
+        "脑洞悬疑",
+        "现代都市", 
+        "演唱会"
+      ]
+    },
+    {
+      "key": "快龙资源",
+      "name": "快龙",
+      "type": 0,
+      "api": "https://lz.118318.xyz/api.php/provide/vod/at/xml",
+      "searchable": 1,
+      "quickSearch": 1,
+      "categories":[
+        "科幻片",
+        "恐怖片",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "剧情片",
+        "战争片",
+        "伦理片",
+        "动漫片",
+        "记录片",
+        "综艺片",
+        "国产剧",
+        "香港剧",
+        "海外剧",
+        "电影解说"
+      ]
+    },
     {
       "key": "360资源",
       "name": "360",
@@ -1845,6 +1904,7 @@
   ]
 
 }
+
 
 
 
