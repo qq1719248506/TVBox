@@ -82,6 +82,19 @@
       }
     },
     {
+      "key": "和友",
+      "name": "和友",
+      "type": 3,
+      "api": "csp_AppSy",
+        "ext": {
+        "url": "",
+        "site": "http://qcb.sxtzg.com/api.txt",
+        "siteKey": "rectangleadsadxa",
+        "listKey": "gHSLmx3JQRasgztO",
+        "parsesKey": "gHSLmx3JQRasgztO"
+      }
+    },    
+    {
       "key": "干饭",
       "name": "干饭",
       "type": 3,
@@ -220,6 +233,69 @@
         "version": ""
       }
     },
+    {
+      "key": "一三",
+      "name": "一三",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppQi",
+        "ext": {
+        "url": "",
+        "site": "https://cdn-tupic-duofun-neimenggu.56uxi.com/1.txt",
+        "dataKey": "qwertyuiopqwerty",
+        "dataIv": "qwertyuiopqwerty",
+        "deviceId": "",           
+        "version": "",
+        "ua": ""
+      }
+    },
+    {
+      "key": "柚子",
+      "name": "柚子",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://cnm.guahd.com",
+        "dataKey": "f2A7D4B9E8C16531",
+        "dataIv": "f2A7D4B9E8C16531",
+        "deviceId": "",
+        "version": "",
+        "ua": ""
+      }
+    }, 
+    {
+      "key": "漫国",
+      "name": "漫国",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://app.lkdyw.cn",
+        "site": "",
+        "dataKey": "e65144389e9361b5",
+        "dataIv": "e65144389e9361b5",
+        "deviceId": "",
+        "version": "",
+        "ua": ""
+     }
+    },
+    {
+      "key": "豆丁",
+      "name": "豆丁",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+        "ext": {
+        "url": "",
+        "site": "http://45.66.157.77:9427/dd.txt",
+        "dataKey": "Xasdasd!123123dd",
+        "dataIv": "Xasdasd!123123dd",
+        "deviceId": "",
+        "version": "",
+        "ua": ""
+      }
+    },    
     {
       "key": "蔬菜",
       "name": "蔬菜",
@@ -1921,6 +1997,7 @@
   ]
 
 }
+
 
 
 
