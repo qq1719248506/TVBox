@@ -82,6 +82,22 @@
       }
     },
     {
+      "key": "干饭",
+      "name": "干饭",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppQi",
+      "ext": {
+        "url": "http://110.42.53.99:1080",
+        "site": "",
+        "dataKey": "staraugust123456",
+        "dataIv": "staraugust123456",
+        "deviceId": "",
+        "version": "301",
+        "ua": ""
+      }
+    },    
+    {
       "key": "加菲",
       "name": "加菲",
       "type": 3,
@@ -205,34 +221,35 @@
       }
     },
     {
-      "key": "迪吧",
-      "name": "迪吧",
+      "key": "蔬菜",
+      "name": "蔬菜",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
       "ext": {
-        "url": "http://154.37.152.97:5211",
+        "url": "http://huohu.yihn.cc",
         "site": "",
-        "dataKey": "685bf108bc47b67d",
-        "dataIv": "685bf108bc47b67d",
+        "dataKey": "huohushipingetap",
+        "dataIv": "huohushipingetap",
+        "deviceId": "",
+        "version": "140",
+        "ua": ""
+      }
+    },    
+    {
+      "key": "爱看",
+      "name": "爱看",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "http://114.134.185.234",
+        "site": "",
+        "dataKey": "uI1TkPJC8B46AyN3",
+        "dataIv": "uI1TkPJC8B46AyN3",
         "deviceId": "",
         "version": ""
      }
-    },
-    {
-      "key": "橙飞",
-      "name": "橙飞",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "http://172.247.189.145:8989",
-        "site": "",
-        "dataKey": "6d1061a50b656564",
-        "dataIv": "6d1061a50b656564",
-        "deviceId": "",
-        "version": ""
-      }
     },    
     {
       "key": "云端",
@@ -1904,6 +1921,7 @@
   ]
 
 }
+
 
 
 
