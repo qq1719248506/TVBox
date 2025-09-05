@@ -1,5 +1,5 @@
 {
-  "spider": "./spider.jar;md5;7645380d8a1349d0bf406bb7cc8623a5",
+  "spider": "./spider.jar;md5;9c4606b0eafb5c6c1862a7d756d12d63",
   "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
   "logo": "http://127.0.0.1:9978/file/TVBox/logo.png",
   "sites": [
@@ -263,10 +263,26 @@
         "version": "",
         "ua": ""
       }
-    }, 
+    },
     {
-      "key": "漫国",
-      "name": "漫国",
+      "key": "小猪",
+      "name": "小猪",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "",
+        "site": "https://xz4k.top/url.txt",
+        "dataKey": "1785acb6c963184b",
+        "dataIv": "1785acb6c963184b",
+        "deviceId": "",
+        "version": "",
+        "ua": ""
+      }
+    },    
+    {
+      "key": "爱影",
+      "name": "爱影",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
@@ -278,8 +294,24 @@
         "deviceId": "",
         "version": "",
         "ua": ""
-     }
+      }
     },
+    {
+      "key": "柠檬",
+      "name": "柠檬",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "http://45.207.212.137",
+        "site": "",
+        "dataKey": "a006661b01bdebbd",
+        "dataIv": "a006661b01bdebbd",
+        "deviceId": "",
+        "version": "",
+        "ua": ""
+      }
+    },    
     {
       "key": "豆丁",
       "name": "豆丁",
@@ -357,20 +389,6 @@
       }
     },
     {
-      "key": "狂人",
-      "name": "狂人",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "https://www.zjkrmv.vip",
-        "dataKey": "vXeyuJFqTKqWUtWU",
-        "dataIv": "vXeyuJFqTKqWUtWU",
-        "deviceId": "",
-        "version": ""
-      }
-    },
-    {
       "key": "莱米",
       "name": "莱米",
       "type": 3,
@@ -384,7 +402,7 @@
         "deviceId": "",
         "version": ""
       }
-    },
+    },    
     {
       "key": "灵虎",
       "name": "灵虎",
@@ -1997,6 +2015,7 @@
   ]
 
 }
+
 
 
 
