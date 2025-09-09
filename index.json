@@ -186,8 +186,8 @@
       }
     },
     {
-      "key": "仓鼠",
-      "name": "仓鼠",
+      "key": "田鼠",
+      "name": "田鼠",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppQi",
@@ -1188,12 +1188,18 @@
      }
     },
     {
-      "key": "三九影视",
-      "name": "三九",
+      "key": "即看",
+      "name": "即看",
       "type": 3,
       "api": "csp_XBPQ",
-      "ext": "https://gitee.com/abac1984/another-d/raw/master/movie/json/SJYS.json"
-    },
+      "jar": "./jars/XBPQ.jar",
+      "ext": {
+        "副标题": "",
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类url": "https://www.jktv.app/;;"
+     }
+    },    
     {
       "key": "漫国",
       "name": "漫国",
@@ -2257,6 +2263,7 @@
   ]
 
 }
+
 
 
 
