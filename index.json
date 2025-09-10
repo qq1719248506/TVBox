@@ -1,5 +1,5 @@
 {
-  "spider": "./spider.jar;md5;e54373492096cba194f3b861d777ac14",
+  "spider": "./spider.txt;md5;36456a794b9f6d670931667d79bf8e9c",
   "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
   "sites": [
     {
@@ -1186,19 +1186,6 @@
         "编码": "UTF-8",
         "分类url": "https://www.belcoscape.com/"
      }
-    },
-    {
-      "key": "即看",
-      "name": "即看",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jars/XBPQ.jar",
-      "ext": {
-        "副标题": "",
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "分类url": "https://www.jktv.app/;;"
-     }
     },    
     {
       "key": "漫国",
@@ -1474,6 +1461,13 @@
         "ratio": 1.597
       }
     },
+    {
+      "key": "即看影视",
+      "name": "即看",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "./XBPQ/即看影视.json"
+    },    
     {
       "key": "神马影视",
       "name": "神马",
@@ -2263,6 +2257,7 @@
   ]
 
 }
+
 
 
 
