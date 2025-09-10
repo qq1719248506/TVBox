@@ -1186,6 +1186,19 @@
         "编码": "UTF-8",
         "分类url": "https://www.belcoscape.com/"
      }
+    },
+    {
+      "key": "即看影视",
+      "name": "即看",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./jars/XBPQ.jar",
+      "ext": {
+        "副标题": "",
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类url": "https://www.jkys.app/"
+     }
     },    
     {
       "key": "漫国",
@@ -1460,13 +1473,6 @@
         "type": "rect",
         "ratio": 1.597
       }
-    },
-    {
-      "key": "即看影视",
-      "name": "即看",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "./XBPQ/即看影视.json"
     },    
     {
       "key": "神马影视",
@@ -2257,6 +2263,7 @@
   ]
 
 }
+
 
 
 
