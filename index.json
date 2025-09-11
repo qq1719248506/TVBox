@@ -1473,6 +1473,13 @@
         "type": "rect",
         "ratio": 1.597
       }
+    },
+    {
+      "key": "速影TV",
+      "name": "速影",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "./XBPQ/速影TV.json"
     },    
     {
       "key": "神马影视",
@@ -2263,6 +2270,7 @@
   ]
 
 }
+
 
 
 
