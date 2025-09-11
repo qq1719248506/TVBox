@@ -1188,8 +1188,8 @@
      }
     },
     {
-      "key": "即看影视",
-      "name": "即看",
+      "key": "小鸭影视",
+      "name": "小鸭",
       "type": 3,
       "api": "csp_XBPQ",
       "jar": "./jars/XBPQ.jar",
@@ -1197,7 +1197,60 @@
         "副标题": "",
         "请求头": "User-Agent$MOBILE_UA",
         "编码": "UTF-8",
-        "分类url": "https://www.jkys.app/"
+        "分类url": "https://777tv.ai/;;!H"
+     }
+    },
+    {
+      "key": "不卡",
+      "name": "不卡",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./jars/XBPQ.jar",
+      "ext": {
+        "副标题": "",
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类url": "https://www.sobods.com/vodshow/1-----------/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
+        "分类": "电影$1#连续剧$2#动漫$4#综艺$3"
+      }
+    },
+    {
+      "key": "老王影视",
+      "name": "老王",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./jars/XBPQ.jar",
+      "ext": {
+        "副标题": "",
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类url": "https://www.laowang.co/;;!"
+     }
+    },
+    {
+      "key": "快快影视",
+      "name": "快快",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./jars/XBPQ.jar",
+      "ext": {
+        "副标题": "",
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类url": "https://4k4k.live/;;!"
+     }
+    },
+    {
+      "key": "飞快影视",
+      "name": "飞快",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./jars/XBPQ.jar",
+      "ext": {
+        "副标题": "",
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类url": "https://feikuai.tv/;;!"
      }
     },    
     {
@@ -2270,6 +2323,7 @@
   ]
 
 }
+
 
 
 
