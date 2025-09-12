@@ -44,18 +44,6 @@
       }
     },
     {
-      "key": "天天影视",
-      "name": "天天",
-      "type": 3,
-      "api": "csp_AppRJ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": {
-        "url": "http://tt.ysdqjs.cn"
-      }
-    },
-    {
       "key": "浪酷影视",
       "name": "浪酷",
       "type": 3,
@@ -65,18 +53,6 @@
       "filterable": 0,
       "ext": {
         "url": "http://v.lkuys.cn"
-      }
-    },
-    {
-      "key": "星河",
-      "name": "星河",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppSy",
-      "ext": {
-        "url": "http://192.140.161.171:2563",
-        "listKey": "aassddwwxxllsx1x",
-        "parsesKey": "aassddwwxxllsx1x"
       }
     },
     {
@@ -184,21 +160,6 @@
         "deviceId": "",
         "version": "120"
       }
-    },
-    {
-      "key": "田鼠",
-      "name": "田鼠",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppQi",
-      "ext": {
-        "url": "",
-        "site": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/csurl.txt",
-        "dataKey": "Z98KXaLtO2wC1Pte",
-        "dataIv": "Z98KXaLtO2wC1Pte",
-        "deviceId": "",
-        "version": "120"
-      }
     },    
     {
       "key": "鲸鱼",
@@ -231,6 +192,38 @@
         "ua": ""
       }
     },
+    {
+      "key": "爱看",
+      "name": "爱看",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://aikan.my",
+        "site": "",
+        "dataKey": "hzxjRSmyTmSE4ENE",
+        "dataIv": "hzxjRSmyTmSE4ENE",
+        "deviceId": "",
+        "version": "",
+        "ua": ""
+      }
+    },
+    {
+      "key": "布雷",
+      "name": "布雷",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://cms.bl4k.cc",
+        "site": "",
+        "dataKey": "B7uaxcwdpX2dww82",
+        "dataIv": "B7uaxcwdpX2dww82",
+        "deviceId": "",
+        "version": "",
+        "ua": ""
+      }
+    },    
     {
       "key": "仓鼠",
       "name": "仓鼠",
@@ -296,22 +289,6 @@
       }
     },
     {
-      "key": "零三",
-      "name": "零三",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "http://03macapp.01yy.top",
-        "site": "",
-        "dataKey": "sdfjiweunikfjofj",
-        "dataIv": "sdfjiweunikfjofj",
-        "deviceId": "",
-        "version": "",
-        "ua": ""
-      }
-    },
-    {
       "key": "万能",
       "name": "万能",
       "type": 3,
@@ -322,22 +299,6 @@
         "site": "",
         "dataKey": "5uBvur6znNUmE3zb",
         "dataIv": "5uBvur6znNUmE3zb",
-        "deviceId": "",
-        "version": "",
-        "ua": ""
-      }
-    },
-    {
-      "key": "缘梦",
-      "name": "缘梦",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "https://www.ymtv.fun",
-        "site": "",
-        "dataKey": "fdnwxwnkyylwdyqh",
-        "dataIv": "fdnwxwnkyylwdyqh",
         "deviceId": "",
         "version": "",
         "ua": ""
@@ -408,22 +369,6 @@
       }
     },
     {
-      "key": "柠檬",
-      "name": "柠檬",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "http://45.207.212.137",
-        "site": "",
-        "dataKey": "a006661b01bdebbd",
-        "dataIv": "a006661b01bdebbd",
-        "deviceId": "",
-        "version": "",
-        "ua": ""
-      }
-    },
-    {
       "key": "豆丁",
       "name": "豆丁",
       "type": 3,
@@ -453,21 +398,6 @@
         "deviceId": "",
         "version": "140",
         "ua": ""
-      }
-    },
-    {
-      "key": "爱看",
-      "name": "爱看",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "http://114.134.185.234",
-        "site": "",
-        "dataKey": "uI1TkPJC8B46AyN3",
-        "dataIv": "uI1TkPJC8B46AyN3",
-        "deviceId": "",
-        "version": ""
       }
     },
     {
@@ -585,36 +515,6 @@
         "dataIv": "4d83b87c4c5ea111",
         "deviceId": "",
         "version": "105"
-      }
-    },
-    {
-      "key": "瓜萌",
-      "name": "瓜萌",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "",
-        "site": "https://www.guahd.com/1.txt",
-        "dataKey": "f2A7D4B9E8C16531",
-        "dataIv": "f2A7D4B9E8C16531",
-        "deviceId": "",
-        "version": ""
-      }
-    },
-    {
-      "key": "橘子",
-      "name": "橘子",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "",
-        "site": "http://t.bffree.cn/1.txt",
-        "dataKey": "2015692015692015",
-        "dataIv": "2015692015692015",
-        "deviceId": "",
-        "version": "300"
       }
     },
     {
@@ -970,16 +870,6 @@
       "name": "鬼鬼",
       "type": 3,
       "api": "csp_DuanjuGG"
-    },
-    {
-      "key": "全盘",
-      "name": "全盘",
-      "type": 3,
-      "api": "https://gitee.com/abac1984/another-d/raw/master/js/drpy2.min.js",
-      "ext": "https://gitee.com/abac1984/another-d/raw/master/cloud/js/QP.js",
-      "style": {
-        "type": "list"
-      }
     },
     {
       "key": "星芽短剧",
@@ -2323,6 +2213,7 @@
   ]
 
 }
+
 
 
 
