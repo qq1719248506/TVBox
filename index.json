@@ -1043,7 +1043,7 @@
       "name": "鬼片",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "./jars/XBPQ.jar",
+      "jar": "./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
       "ext": {
         "副标题": "",
         "请求头": "User-Agent$MOBILE_UA",
@@ -1056,20 +1056,33 @@
       "name": "枝枝",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "./jars/XBPQ.jar",
+      "jar": "./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
       "ext": {
         "副标题": "<div class=\"tag text-overflow\">&&</div>",
         "请求头": "User-Agent$MOBILE_UA",
         "编码": "UTF-8",
         "分类url": "http://zzoc.cc/;;!"
      }
-    },        
+    },
+    {
+      "key": "奈菲影视",
+      "name": "奈菲",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
+      "ext": {
+        "副标题": "",
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类url": "https://www.nfyingshi.com/;;!"
+     }
+    },    
     {
       "key": "星辰影院",
       "name": "星辰",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "./jars/XBPQ.jar",
+      "jar": "./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
       "ext": {
         "副标题": "",
         "请求头": "User-Agent$MOBILE_UA",
@@ -1078,24 +1091,37 @@
      }
     },
     {
+      "key": "即看影视",
+      "name": "即看",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
+      "ext": {
+        "副标题": "",
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类url": "https://www.jktv.app/;;!H"
+     }
+    },
+    {
       "key": "小鸭影视",
       "name": "小鸭",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "./jars/XBPQ.jar",
+      "jar": "./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
       "ext": {
         "副标题": "",
         "请求头": "User-Agent$MOBILE_UA",
         "编码": "UTF-8",
         "分类url": "https://777tv.ai/;;!H"
      }
-    },
+    },    
     {
       "key": "不卡",
       "name": "不卡",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "./jars/XBPQ.jar",
+      "jar": "./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
       "ext": {
         "副标题": "",
         "请求头": "User-Agent$MOBILE_UA",
@@ -1109,7 +1135,7 @@
       "name": "老王",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "./jars/XBPQ.jar",
+      "jar": "./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
       "ext": {
         "副标题": "",
         "请求头": "User-Agent$MOBILE_UA",
@@ -1118,11 +1144,23 @@
      }
     },
     {
+      "key":"小镇",
+      "name":"小镇",
+      "type":3,
+      "api":"csp_XBPQ",
+      "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
+      "ext":{
+        "请求头":"User-Agent$MOBILE_UA",
+        "编码":"UTF-8",
+        "分类url":"http://dyxz.tv/"
+      }
+    },
+    {
       "key": "快快影视",
       "name": "快快",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "./jars/XBPQ.jar",
+      "jar": "./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
       "ext": {
         "副标题": "",
         "请求头": "User-Agent$MOBILE_UA",
@@ -1135,7 +1173,7 @@
       "name": "飞快",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "./jars/XBPQ.jar",
+      "jar": "./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
       "ext": {
         "副标题": "",
         "请求头": "User-Agent$MOBILE_UA",
@@ -2213,6 +2251,7 @@
   ]
 
 }
+
 
 
 
