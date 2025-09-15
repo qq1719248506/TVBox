@@ -1074,7 +1074,7 @@
         "副标题": "",
         "请求头": "User-Agent$MOBILE_UA",
         "编码": "UTF-8",
-        "分类url": "https://www.nfyingshi.com/;;!"
+        "分类url": "https://www.nfyingshi.com/"
      }
     },    
     {
@@ -1089,33 +1089,7 @@
         "编码": "UTF-8",
         "分类url": "https://www.belcoscape.com/"
      }
-    },
-    {
-      "key": "追剧狂人",
-      "name": "追剧",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
-      "ext": {
-        "副标题": "",
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "分类url": "https://www.zjkrmv.com/;;!"
-     }
     },    
-    {
-      "key": "即看影视",
-      "name": "即看",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
-      "ext": {
-        "副标题": "",
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "分类url": "https://www.jktv.app/;;!H"
-     }
-    },
     {
       "key": "小鸭影视",
       "name": "小鸭",
@@ -2264,6 +2238,7 @@
   ]
 
 }
+
 
 
 
