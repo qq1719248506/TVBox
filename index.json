@@ -1139,7 +1139,7 @@
       "ext":{
         "请求头":"User-Agent$MOBILE_UA",
         "编码":"UTF-8",
-        "分类url":"http://dyxz.tv/"
+        "分类url":"http://dyxz.tv/;;!H"
       }
     },
     {
@@ -2238,6 +2238,7 @@
   ]
 
 }
+
 
 
 
