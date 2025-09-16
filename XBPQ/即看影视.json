@@ -29,5 +29,5 @@
                 "播放链接": "href=\"&&\"",
                 "免嗅": "0",
                 "分类url": "https://www.jktv.app/show/1-----------/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
-                "分类": "电影$1#连续剧$2#动漫$4#综艺$3#儿童$58#短剧$53"
+                "分类": "电影$1#电视剧$2#动漫$4#综艺$3"
             }
