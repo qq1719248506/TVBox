@@ -827,14 +827,65 @@
       "filterable": 1
     },
     {
-      "key": "盘搜",
-      "name": "盘搜",
+      "key": "夸克盘搜",
+      "name": "夸克",
       "type": 3,
       "api": "csp_PanSou",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "ext": {
+        "cloudDrives": "quark"
+      }      
     },
+    {
+      "key": "UC盘搜",
+      "name": "UC",
+      "type": 3,
+      "api": "csp_PanSou",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "cloudDrives": "UC"
+      }      
+    },
+    {
+      "key": "天翼盘搜",
+      "name": "天翼",
+      "type": 3,
+      "api": "csp_PanSou",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "cloudDrives": "tianyi"
+      }      
+    },
+    {
+      "key": "123盘搜",
+      "name": "一二三",
+      "type": 3,
+      "api": "csp_PanSou",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "cloudDrives": "123"
+      }      
+    },
+    {
+      "key": "百度盘搜",
+      "name": "百度",
+      "type": 3,
+      "api": "csp_PanSou",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "cloudDrives": "baidu"
+      }      
+    },    
     {
       "key": "百酷",
       "name": "百酷",
@@ -919,22 +970,6 @@
       "changeable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
-    {
-      "key": "天翼影视",
-      "name": "天翼",
-      "type": 1,
-      "api": "http://7.qqqtv.top/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "推荐",
-        "电影",
-        "电视剧",
-        "综艺",
-        "动漫"
-      ]
     },
     {
       "key": "猎手影视",
@@ -1167,6 +1202,13 @@
         "编码": "UTF-8",
         "分类url": "https://feikuai.tv/;;!"
      }
+    },
+    {
+      "key": "即看影视",
+      "name": "即看",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "./XBPQ/即看影视.json"
     },    
     {
       "key": "漫国",
@@ -2238,6 +2280,7 @@
   ]
 
 }
+
 
 
 
