@@ -32,6 +32,17 @@
       "filterable": 0
     },
     {
+      "key":"csp_mfdj",
+      "name":"免费",
+      "type":3,
+      "api":"csp_XBPQ",
+      "ext":{
+        "分类url":"https://www.idsp.cc/type/{cateId}-{catePg}.html",
+        "分类":"精品短剧$1#短剧大全$2#快手短剧$3#西瓜视频$4",
+        "搜索url":"https://www.idsp.cc/search.php?page={pg}&searchword={wd}&searchtype="
+      }
+    },    
+    {
       "key": "热播影视",
       "name": "热播",
       "type": 3,
@@ -2353,6 +2364,7 @@
   ]
 
 }
+
 
 
 
