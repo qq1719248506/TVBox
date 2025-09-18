@@ -1,5 +1,5 @@
 {
-  "spider": "./spider.jar;md5;439a71161ca1d47508ee5beff9ee1dd0",
+  "spider": "./spider.txt;md5;8d8954c4804192d08087f2c3121a6e41",
   "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
   "sites": [
     {
@@ -1546,8 +1546,14 @@
       "name": "大全",
       "type": 3,
       "api": "csp_XBPQ",
-      "ext": "./XBPQ/影视大全.json"
-    },    
+      "jar": "./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
+      "ext": {
+        "副标题": "",
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类url": "https://ys2046.live/;;!"
+     }
+    },        
     {
       "key": "神马影视",
       "name": "神马",
@@ -2337,6 +2343,7 @@
   ]
 
 }
+
 
 
 
