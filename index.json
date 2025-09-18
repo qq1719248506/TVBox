@@ -160,6 +160,21 @@
         "deviceId": "",
         "version": "120"
       }
+    },
+    {
+      "key": "仓鼠",
+      "name": "仓鼠",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppQi",
+      "ext": {
+        "url": "",
+        "site": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/ceshi421.txt",
+        "dataKey": "da61247f5b662597",
+        "dataIv": "da61247f5b662597",
+        "deviceId": "",
+        "version": "120"
+      }
     },    
     {
       "key": "鲸鱼",
@@ -224,6 +239,38 @@
         "ua": "okhttp/3.10.0 BDYS/109.0.0.8"
       }
     },
+    {
+      "key": "像素",
+      "name": "像素",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://mcvod.top",
+        "site": "",
+        "dataKey": "cnmbknmbtounimab",
+        "dataIv": "cnmbknmbtounimab",
+        "deviceId": "",
+        "version": "",
+        "ua": ""
+      }
+    },    
+    {
+      "key": "豆丁",
+      "name": "豆丁",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "http://45.66.157.77:9427",
+        "site": "",
+        "dataKey": "Xasdasd!123123dd",
+        "dataIv": "Xasdasd!123123dd",
+        "deviceId": "",
+        "version": "",
+        "ua": ""
+      }
+    },    
     {
       "key": "斗量",
       "name": "斗量",
@@ -304,22 +351,6 @@
         "ua": ""
       }
     },    
-    {
-      "key": "仓鼠",
-      "name": "仓鼠",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppQi",
-      "ext": {
-        "url": "",
-        "site": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/ceshi421.txt",
-        "dataKey": "da61247f5b662597",
-        "dataIv": "da61247f5b662597",
-        "deviceId": "",
-        "version": "120",
-        "ua": ""
-      }
-    },
     {
       "key": "五八",
       "name": "五八",
@@ -433,22 +464,6 @@
       }
     },
     {
-      "key": "豆丁",
-      "name": "豆丁",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "",
-        "site": "http://45.66.157.77:9427/dd.txt",
-        "dataKey": "Xasdasd!123123dd",
-        "dataIv": "Xasdasd!123123dd",
-        "deviceId": "",
-        "version": "",
-        "ua": ""
-      }
-    },
-    {
       "key": "蔬菜",
       "name": "蔬菜",
       "type": 3,
@@ -548,20 +563,6 @@
         "url": "http://tv.yy-fun.cc",
         "dataKey": "qkxnwkfjwpcnwycl",
         "dataIv": "qkxnwkfjwpcnwycl",
-        "deviceId": "",
-        "version": ""
-      }
-    },
-    {
-      "key": "米诺",
-      "name": "米诺",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "http://www.milkidc.cn",
-        "dataKey": "20c79c979da8db0f",
-        "dataIv": "20c79c979da8db0f",
         "deviceId": "",
         "version": ""
       }
@@ -1542,18 +1543,27 @@
       }
     },
     {
+      "key": "楚门影视",
+      "name": "楚门",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "api": "csp_XBPQ",
+      "ext": "./XBPQ/楚门影视.json"
+    },    
+    {
       "key": "影视大全",
       "name": "大全",
       "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
       "api": "csp_XBPQ",
-      "jar": "./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
-      "ext": {
-        "副标题": "",
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "分类url": "https://ys2046.live/;;!"
-     }
-    },        
+      "ext": "./XBPQ/影视大全.json"
+    },            
     {
       "key": "神马影视",
       "name": "神马",
@@ -2343,6 +2353,7 @@
   ]
 
 }
+
 
 
 
