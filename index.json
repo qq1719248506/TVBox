@@ -1552,30 +1552,6 @@
         "type": "rect",
         "ratio": 1.597
       }
-    },
-    {
-      "key": "楚门影视",
-      "name": "楚门",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "api": "csp_XBPQ",
-      "jar": "./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
-      "ext": "./XBPQ/楚门影视.json"
-    },    
-    {
-      "key": "影视大全",
-      "name": "大全",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "api": "csp_XBPQ",
-      "jar": "./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
-      "ext": "./XBPQ/影视大全.json"
     },            
     {
       "key": "神马影视",
@@ -2366,6 +2342,7 @@
   ]
 
 }
+
 
 
 
