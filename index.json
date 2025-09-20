@@ -1562,6 +1562,7 @@
       "filterable": 1,
       "changeable": 1,
       "api": "csp_XBPQ",
+      "jar": "./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
       "ext": "./XBPQ/楚门影视.json"
     },    
     {
@@ -1573,6 +1574,7 @@
       "filterable": 1,
       "changeable": 1,
       "api": "csp_XBPQ",
+      "jar": "./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
       "ext": "./XBPQ/影视大全.json"
     },            
     {
@@ -2364,6 +2366,7 @@
   ]
 
 }
+
 
 
 
