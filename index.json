@@ -1,5 +1,5 @@
 {
-  "spider": "./spider.txt;md5;8d8954c4804192d08087f2c3121a6e41",
+  "spider": "./spider.txt;md5;4a782a513874914d2e685913ee6fbc07",
   "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
   "sites": [
     {
@@ -234,6 +234,54 @@
         "ua": ""
       }
     },
+    {
+      "key": "影视",
+      "name": "影视",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppQi",
+      "ext": {
+        "url": "",
+        "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj2.txt",
+        "dataKey": "sada21321sdq231d",
+        "dataIv": "sada21321sdq231d",
+        "deviceId": "",
+        "version": "",
+        "ua": ""
+      }
+    },
+    {
+      "key": "迪吧",
+      "name": "迪吧",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "",
+        "site": "https://appto2-1316376600.cos.ap-beijing.myqcloud.com/gap.txt",
+        "dataKey": "685bf108bc47b67d",
+        "dataIv": "685bf108bc47b67d",
+        "deviceId": "",
+        "version": "",
+        "ua": ""
+      }
+    },
+    {
+      "key": "米奇",
+      "name": "米奇",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "http://www.milkidc.cn",
+        "site": "",
+        "dataKey": "20c79c979da8db0f",
+        "dataIv": "20c79c979da8db0f",
+        "deviceId": "",
+        "version": "",
+        "ua": ""
+      }
+    },    
     {
       "key": "星星",
       "name": "星星",
@@ -474,6 +522,22 @@
         "ua": ""
       }
     },
+    {
+      "key": "火狐",
+      "name": "火狐",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "http://huohu.yihn.cc",
+        "site": "",
+        "dataKey": "huohushipingetap",
+        "dataIv": "huohushipingetap",
+        "deviceId": "",
+        "version": "140",
+        "ua": ""
+      }
+    },    
     {
       "key": "蔬菜",
       "name": "蔬菜",
@@ -2342,6 +2406,7 @@
   ]
 
 }
+
 
 
 
