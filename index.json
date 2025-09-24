@@ -1616,7 +1616,28 @@
         "type": "rect",
         "ratio": 1.597
       }
-    },            
+    },
+    {
+      "key": "免费影院",
+      "name": "免费",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "./XBPQ/免费影院.json"
+    },
+    {
+      "key": "王子TV",
+      "name": "王子",
+      "type": 3,
+      "api": "./js/lib/drpy2.min.js",
+      "ext": "./js/王子TV.js"
+    },    
+    {
+      "key": "土豆影院",
+      "name": "土豆",
+      "type": 3,
+      "api": "./js/lib/drpy2.min.js",
+      "ext": "./js/土豆影院.js"
+    },    
     {
       "key": "神马影视",
       "name": "神马",
@@ -2406,6 +2427,7 @@
   ]
 
 }
+
 
 
 
