@@ -1,5 +1,5 @@
 {
-  "spider": "./spider.txt;md5;4a782a513874914d2e685913ee6fbc07",
+  "spider": "./spider.jar;md5;4a782a513874914d2e685913ee6fbc07",
   "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
   "sites": [
     {
@@ -2427,6 +2427,7 @@
   ]
 
 }
+
 
 
 
