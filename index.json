@@ -1612,12 +1612,16 @@
       }
     },
     {
-      "key": "免费影院",
-      "name": "免费",
+      "key": "魅影视频",
+      "name": "魅影",
       "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
       "api": "csp_XBPQ",
-      "ext": "./XBPQ/免费影院.json"
-    },
+      "ext": "./XBPQ/魅影视频.json"
+    },    
     {
       "key": "王子TV",
       "name": "王子",
@@ -2421,6 +2425,7 @@
   ]
 
 }
+
 
 
 
