@@ -1626,14 +1626,14 @@
       "key": "王子TV",
       "name": "王子",
       "type": 3,
-      "api": "./js/lib/drpy2.min.js",
+      "api": "./js/drpy2.min.js",
       "ext": "./js/王子TV.js"
     },    
     {
       "key": "土豆影院",
       "name": "土豆",
       "type": 3,
-      "api": "./js/lib/drpy2.min.js",
+      "api": "./js/drpy2.min.js",
       "ext": "./js/土豆影院.js"
     },    
     {
@@ -2425,6 +2425,7 @@
   ]
 
 }
+
 
 
 
