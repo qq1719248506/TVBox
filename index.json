@@ -1039,22 +1039,22 @@
       "api": "csp_MiSou"
     },
     {
-      "key": "短剧大全",
-      "name": "大全",
+      "key": "酷乐搜索",
+      "name": "酷乐",
       "type": 3,
-      "api": "csp_DuanjuDQ"
+      "api": "csp_KuLe"
     },
     {
-      "key": "短剧合集",
-      "name": "短剧",
+      "key": "爱看搜索",
+      "name": "爱看",
       "type": 3,
-      "api": "csp_DuanjuHJ"
-    },
+      "api": "csp_AiKan"
+    },    
     {
-      "key": "短剧鬼鬼",
+      "key": "鬼鬼搜索",
       "name": "鬼鬼",
       "type": 3,
-      "api": "csp_DuanjuGG"
+      "api": "csp_GuiGui"
     },
     {
       "key": "星芽短剧",
@@ -2421,6 +2421,7 @@
   ]
 
 }
+
 
 
 
