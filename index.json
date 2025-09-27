@@ -1076,11 +1076,12 @@
       "key": "星芽短剧",
       "name": "星芽",
       "type": 3,
-      "api": "csp_AppXY",
+      "api": "https://gitee.com/abac1984/another-d/raw/master/movie/py/XYDJ.py",
       "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0
-    },
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },    
     {
       "key": "甜圈短剧",
       "name": "甜圈",
@@ -2399,6 +2400,7 @@
   ]
 
 }
+
 
 
 
