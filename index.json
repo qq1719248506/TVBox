@@ -56,19 +56,6 @@
       }
     },
     {
-      "key": "和友",
-      "name": "和友",
-      "type": 3,
-      "api": "csp_AppSy",
-      "ext": {
-        "url": "",
-        "site": "http://qcb.sxtzg.com/api.txt",
-        "siteKey": "rectangleadsadxa",
-        "listKey": "gHSLmx3JQRasgztO",
-        "parsesKey": "gHSLmx3JQRasgztO"
-      }
-    },
-    {
       "key": "加菲",
       "name": "加菲",
       "type": 3,
@@ -114,21 +101,6 @@
         "deviceId": "",
         "version": "120",
         "ua": "okhttp/3.10.0 BDYS/109.0.0.8"
-      }
-    },
-    {
-      "key": "云云",
-      "name": "云云",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppQi",
-      "ext": {
-        "url": "",
-        "site": "https://staraugust123456.oss-cn-hangzhou.aliyuncs.com/1.txt",
-        "dataKey": "staraugust123456",
-        "dataIv": "staraugust123456",
-        "deviceId": "",
-        "version": "120"
       }
     },
     {
@@ -192,22 +164,6 @@
       }
     },
     {
-      "key": "一三",
-      "name": "一三",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppQi",
-      "ext": {
-        "url": "",
-        "site": "https://cdn-tupic-duofun-neimenggu.56uxi.com/1.txt",
-        "dataKey": "qwertyuiopqwerty",
-        "dataIv": "qwertyuiopqwerty",
-        "deviceId": "",
-        "version": "",
-        "ua": ""
-      }
-    },
-    {
       "key": "热剧",
       "name": "热剧",
       "type": 3,
@@ -239,6 +195,22 @@
         "ua": ""
       }
     },
+    {
+      "key": "狂欢",
+      "name": "狂欢",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "http://m.m.m.kahzw.com",
+        "site": "",
+        "dataKey": "xnybssspqtwotuwj",
+        "dataIv": "xnybssspqtwotuwj",
+        "deviceId": "",
+        "version": "",
+        "ua": ""
+      }
+    },    
     {
       "key": "奈飞",
       "name": "奈飞",
@@ -352,22 +324,6 @@
       }
     },
     {
-      "key": "魔方",
-      "name": "魔方",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "https://www.pjb523.sbs",
-        "site": "",
-        "dataKey": "1234567887654321",
-        "dataIv": "1234567887654321",
-        "deviceId": "",
-        "version": "",
-        "ua": ""
-      }
-    },
-    {
       "key": "稀饭",
       "name": "稀饭",
       "type": 3,
@@ -446,22 +402,6 @@
         "version": "",
         "ua": ""
       }
-    },
-    {
-      "key": "万能",
-      "name": "万能",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "https://wnvod.cc",
-        "site": "",
-        "dataKey": "5uBvur6znNUmE3zb",
-        "dataIv": "5uBvur6znNUmE3zb",
-        "deviceId": "",
-        "version": "",
-        "ua": ""
-      }
     },   
     {
       "key": "驿站",
@@ -490,22 +430,6 @@
         "site": "",
         "dataKey": "7xv16h7qgkrs9b1p",
         "dataIv": "7xv16h7qgkrs9b1p",
-        "deviceId": "",
-        "version": "",
-        "ua": ""
-      }
-    },
-    {
-      "key": "小猪",
-      "name": "小猪",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "",
-        "site": "https://xz4k.top/url.txt",
-        "dataKey": "1785acb6c963184b",
-        "dataIv": "1785acb6c963184b",
         "deviceId": "",
         "version": "",
         "ua": ""
@@ -2388,6 +2312,7 @@
   ]
 
 }
+
 
 
 
