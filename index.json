@@ -1529,7 +1529,7 @@
       "key": "小鸭看看",
       "name": "看看",
       "type": 3,
-      "api": "/py/小鸭看看.py",
+      "api": "./py/小鸭看看.py",
       "searchable": 1,
       "changeable": 1,
       "quickSearch": 1,
@@ -2296,6 +2296,7 @@
   ]
 
 }
+
 
 
 
