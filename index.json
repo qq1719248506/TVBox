@@ -1203,19 +1203,6 @@
      }
     },    
     {
-      "key": "老王影视",
-      "name": "老王",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
-      "ext": {
-        "副标题": "",
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "分类url": "https://www.laowang.co/;;!"
-     }
-    },
-    {
       "key":"小镇",
       "name":"小镇",
       "type":3,
@@ -1539,18 +1526,15 @@
       "ext": "./XBPQ/魅影视频.json"
     },        
     {
-      "key": "土豆影院",
-      "name": "土豆",
+      "key": "小鸭看看",
+      "name": "看看",
       "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
-      "ext": {
-        "副标题": "",
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "分类url": "http://www.xf-td.com/;;!"
-     }
-    },    
+      "api": "/py/小鸭看看.py",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },        
     {
       "key": "量子资源",
       "name": "量子",
@@ -2312,6 +2296,7 @@
   ]
 
 }
+
 
 
 
