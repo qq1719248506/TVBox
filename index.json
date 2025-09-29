@@ -1,5 +1,5 @@
 {
-  "spider": "./spider.txt;md5;3c9e95c6e8487943cd8f90a2b9da3b4d",
+  "spider": "./spider.txt;md5;33348395d59f18d1bac0df7dfc33f087",
   "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
   "sites": [
     {
@@ -612,21 +612,6 @@
         "dataIv": "d032c12876bc6848",
         "deviceId": "",
         "version": "200"
-      }
-    },
-    {
-      "key": "白蛇",
-      "name": "白蛇",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "",
-        "site": "http://tengxunyunaliyun.oss-cn-shanghai.aliyuncs.com/tengxunyun.txt",
-        "dataKey": "n3l2tx5jdkp9s2c8",
-        "dataIv": "n3l2tx5jdkp9s2c8",
-        "deviceId": "",
-        "version": "361"
       }
     },
     {
@@ -2296,6 +2281,7 @@
   ]
 
 }
+
 
 
 
