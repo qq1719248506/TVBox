@@ -1590,7 +1590,21 @@
       "changeable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },        
+    },
+    {
+      "key": "即看影视",
+      "name": "即看",
+      "type": 3,
+      "api": "./js/drpy2.min.js",
+      "ext": "./js/即看影视.js"
+    },
+    {
+      "key": "速影TV",
+      "name": "速影",
+      "type": 3,
+      "api": "./js/drpy2.min.js",
+      "ext": "./js/速影TV.js"
+    },    
     {
       "key": "量子资源",
       "name": "量子",
@@ -2352,6 +2366,7 @@
   ]
 
 }
+
 
 
 
