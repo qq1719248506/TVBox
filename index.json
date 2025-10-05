@@ -1,5 +1,5 @@
 {
-  "spider": "./spider.txt;md5;64cfc398b8638c912b62df5d1d415cbd",
+  "spider": "./spider.txt;md5;987bee98a7b0f0d0f42c91264ba1b02c",
   "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
   "sites": [
     {
@@ -1590,20 +1590,6 @@
       "changeable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
-    {
-      "key": "即看影视",
-      "name": "即看",
-      "type": 3,
-      "api": "./js/drpy2.min.js",
-      "ext": "./js/即看影视.js"
-    },
-    {
-      "key": "速影TV",
-      "name": "速影",
-      "type": 3,
-      "api": "./js/drpy2.min.js",
-      "ext": "./js/速影TV.js"
     },    
     {
       "key": "量子资源",
@@ -2366,6 +2352,7 @@
   ]
 
 }
+
 
 
 
