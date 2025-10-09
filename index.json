@@ -1,5 +1,5 @@
 {
-  "spider": "./spider.txt;md5;987bee98a7b0f0d0f42c91264ba1b02c",
+  "spider": "./spider.txt;md5;876a2f4b2972eda2ebbd3ae3f4fd2962",
   "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
   "sites": [
     {
@@ -286,6 +286,22 @@
         "site": "",
         "dataKey": "5a9w6x58dsq6z3a6",
         "dataIv": "5a9w6x58dsq6z3a6",
+        "deviceId": "",
+        "version": "",
+        "ua": ""
+      }
+    },
+    {
+      "key": "米奇",
+      "name": "米奇",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "http://www.milkidc.cn",
+        "site": "",
+        "dataKey": "20c79c979da8db0f",
+        "dataIv": "20c79c979da8db0f",
         "deviceId": "",
         "version": "",
         "ua": ""
@@ -2379,6 +2395,7 @@
   ]
 
 }
+
 
 
 
