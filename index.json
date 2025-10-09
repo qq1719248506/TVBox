@@ -212,6 +212,22 @@
       }
     },
     {
+      "key": "云云",
+      "name": "云云",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppQi",
+      "ext": {
+        "url": "",
+        "site": "https://staraugust123456.oss-cn-hangzhou.aliyuncs.com/2.txt",
+        "dataKey": "staraugust123456",
+        "dataIv": "staraugust123456",
+        "deviceId": "",
+        "version": "120",
+        "ua": ""
+      }
+    },    
+    {
       "key": "八天",
       "name": "八天",
       "type": 3,
@@ -1580,7 +1596,18 @@
       "changeable": 1,
       "api": "csp_XBPQ",
       "ext": "./XBPQ/魅影视频.json"
-    },        
+    },
+    {
+      "key": "三八影院",
+      "name": "三八",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "api": "csp_XBPQ",
+      "ext": "./XBPQ/三八影院.json"
+    },    
     {
       "key": "小鸭看看",
       "name": "看看",
@@ -2352,6 +2379,7 @@
   ]
 
 }
+
 
 
 
