@@ -1,5 +1,5 @@
 {
-  "spider": "./spider.txt;md5;876a2f4b2972eda2ebbd3ae3f4fd2962",
+  "spider": "./spider.txt;md5;330be66a4b6b3196852d880574e90e35",
   "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
   "sites": [
     {
@@ -1492,6 +1492,15 @@
       }
     },
     {
+      "key": "戏曲多多",
+      "name": "戏曲",
+      "type": 3,
+      "api": "csp_AppLY",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },    
+    {
       "key": "哔哩合集",
       "name": "哔哩",
       "type": 3,
@@ -2395,6 +2404,7 @@
   ]
 
 }
+
 
 
 
