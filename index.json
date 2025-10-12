@@ -228,6 +228,38 @@
       }
     },
     {
+      "key": "万能",
+      "name": "万能",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://wnvod.cc",
+        "site": "",
+        "dataKey": "5uBvur6znNUmE3zb",
+        "dataIv": "5uBvur6znNUmE3zb",
+        "deviceId": "",
+        "version": "",
+        "ua": "myapp/1.0.3"
+      }
+    },
+    {
+      "key": "坚果",
+      "name": "坚果",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "http://a.ngdy1.cn",
+        "site": "",
+        "dataKey": "2015692015692015",
+        "dataIv": "2015692015692015",
+        "deviceId": "",
+        "version": "",
+        "ua": ""
+      }
+    },    
+    {
       "key": "火花",
       "name": "火花",
       "type": 3,
@@ -2327,6 +2359,7 @@
   ]
 
 }
+
 
 
 
