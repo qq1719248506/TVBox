@@ -1,5 +1,5 @@
 {
-  "spider": "./spider.txt;md5;c83b8fc690c7618a56b54366b51fae14",
+  "spider": "./spider.txt;md5;b08aed5af7ade2bab7fb90e66c6578e4",
   "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
   "sites": [
     {
@@ -308,22 +308,6 @@
       }
     },
     {
-      "key": "刷剧",
-      "name": "刷剧",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "",
-        "site": "https://dingchaowangzhan.oss-cn-beijing.aliyuncs.com/1.txt",
-        "dataKey": "1387006363333333",
-        "dataIv": "1387006363333333",
-        "deviceId": "",
-        "version": "",
-        "ua": ""
-      }
-    },
-    {
       "key": "九零",
       "name": "九零",
       "type": 3,
@@ -403,22 +387,6 @@
         "ua": ""
       }
     },    
-    {
-      "key": "斗量",
-      "name": "斗量",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "",
-        "site": "https://app-cms-v10-1314306855.cos.ap-guangzhou.myqcloud.com/appcms.php",
-        "dataKey": "A1akVPQmnnE4Fz9Z",
-        "dataIv": "A1akVPQmnnE4Fz9Z",
-        "deviceId": "",
-        "version": "",
-        "ua": ""
-      }
-    },
     {
       "key": "稀饭",
       "name": "稀饭",
@@ -526,22 +494,6 @@
         "site": "",
         "dataKey": "7xv16h7qgkrs9b1p",
         "dataIv": "7xv16h7qgkrs9b1p",
-        "deviceId": "",
-        "version": "",
-        "ua": ""
-      }
-    },
-    {
-      "key": "爱影",
-      "name": "爱影",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "https://app.lkdyw.cn",
-        "site": "",
-        "dataKey": "e65144389e9361b5",
-        "dataIv": "e65144389e9361b5",
         "deviceId": "",
         "version": "",
         "ua": ""
@@ -2359,6 +2311,7 @@
   ]
 
 }
+
 
 
 
