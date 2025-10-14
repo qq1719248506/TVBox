@@ -1133,6 +1133,16 @@
       "ext": "https://www.wwgz.cn"
     },
     {
+      "key":"影视大全",
+      "name":"大全",
+      "type":3,
+      "api":"csp_XBPQ",
+      "ext":{
+        "分类url":"https://www.iysdq.cc/vodshow/{cateId}-{area}-------{catePg}---.html",
+        "分类":"电影$1#电视剧$2#综艺$3#动漫$4#短剧$5"
+      }
+    },
+    {
       "key": "恐怖片之家",
       "name": "鬼片",
       "type": 3,
@@ -2311,6 +2321,7 @@
   ]
 
 }
+
 
 
 
