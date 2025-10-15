@@ -1,5 +1,5 @@
 {
-  "spider": "./spider.txt;md5;7cad9513b7600c0faacfb257a2ab411b",
+  "spider": "./spider.txt;md5;0cfc151f61eab98d9c003e01a8f2dae1",
   "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
   "sites": [
     {
@@ -448,22 +448,6 @@
         "ua": ""
       }
     },    
-    {
-      "key": "爱看",
-      "name": "爱看",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "https://aikan.my",
-        "site": "",
-        "dataKey": "hzxjRSmyTmSE4ENE",
-        "dataIv": "hzxjRSmyTmSE4ENE",
-        "deviceId": "",
-        "version": "",
-        "ua": ""
-      }
-    },
     {
       "key": "布雷",
       "name": "布雷",
@@ -2366,6 +2350,7 @@
   ]
 
 }
+
 
 
 
