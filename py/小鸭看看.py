@@ -4,7 +4,7 @@ import json
 import time
 from urllib.parse import quote, urljoin, urlparse, parse_qs
 import sys
-# 导入外部库，现在可以正常使用
+# 导入外部库
 from bs4 import BeautifulSoup
 import gzip
 sys.path.append("..")
@@ -288,82 +288,76 @@ class Spider(Spider):
                 self.log(f"详情页请求失败，状态码：{r.status_code}", "ERROR")
                 return result
             
+            soup = BeautifulSoup(r.text, 'html.parser')
+
             # 提取标题
-            title_pattern = r'<title>([^<]+)</title>'
-            title_match = re.search(title_pattern, r.text)
-            title = title_match.group(1).replace(" - 小鴨看看", "").strip() if title_match else "未知标题"
+            title_tag = soup.find('title')
+            title = title_tag.text.replace(" - 小鴨看看", "").strip() if title_tag else "未知标题"
             
             # 提取封面图
-            cover_pattern = r'data-poster="([^"]+)"'
-            cover_match = re.search(cover_pattern, r.text)
+            cover_tag = soup.find('img', {'data-poster': True})
             cover_url = ""
-            if cover_match:
-                cover_url = cover_match.group(1)
+            if cover_tag and cover_tag.get('data-poster'):
+                cover_url = cover_tag['data-poster']
                 if cover_url.startswith('//'):
                     cover_url = 'https:' + cover_url
                 elif not cover_url.startswith('http'):
                     cover_url = urljoin(self.get_current_host(), cover_url)
             
             # 提取描述
-            desc_pattern = r'<meta name="description" content="([^"]*)"'
-            desc_match = re.search(desc_pattern, r.text)
-            desc = desc_match.group(1) if desc_match else ""
-            
+            desc_tag = soup.find('meta', {'name': 'description'})
+            desc = desc_tag['content'].strip() if desc_tag and desc_tag.get('content') else ""
+
             # 提取播放线路和剧集
             play_sources = []
             play_urls = []
             
             # 从JavaScript中提取播放信息
-            script_pattern = r'var pp\s*=\s*({.*?});'
-            script_match = re.search(script_pattern, r.text, re.DOTALL)
-            if script_match:
+            pp_data = None
+            script_pattern = re.search(r'var pp\s*=\s*({.*?});', r.text, re.DOTALL)
+            if script_pattern:
                 try:
-                    pp_data = json.loads(script_match.group(1))
-                    if 'lines' in pp_data:
-                        for line in pp_data['lines']:
-                            if len(line) >= 4:
-                                line_name = line[1] if isinstance(line[1], str) else f"线路{line[0]}"
-                                play_sources.append(line_name)
-                                
-                                episodes = []
-                                urls = line[3] if isinstance(line[3], list) and len(line[3]) > 0 else []
-                                for idx, url in enumerate(urls):
-                                    if isinstance(url, str) and any(url.endswith(fmt) for fmt in self.VIDEO_FORMATS):
-                                        # 修复集数命名逻辑
-                                        episode_name_match = re.search(r'ep-([\d\w]+)', url)
-                                        if episode_name_match:
-                                            episode_name = f"第{episode_name_match.group(1)}集"
-                                        elif len(urls) == 1:
-                                            episode_name = "全集"
-                                        else:
-                                            episode_name = f"第{idx+1}集"
-                                            
-                                        episodes.append(f"{episode_name}${url}")
-                                
-                                if episodes:
-                                    play_urls.append("#".join(episodes))
+                    pp_data = json.loads(script_pattern.group(1))
                 except Exception as e:
                     self.log(f"解析JavaScript播放信息失败：{str(e)}", "ERROR")
             
-            # 如果没有从JS中提取到，尝试从HTML中提取
-            if not play_sources:
-                source_pattern = r'<div class="source"[^>]*>.*?<span class="name">([^<]+)</span>.*?<div class="list">(.*?)</div>'
-                source_matches = re.findall(source_pattern, r.text, re.DOTALL)
+            # 查找所有播放线路的容器
+            source_blocks = soup.find_all('div', class_='source')
+
+            for idx, block in enumerate(source_blocks):
+                source_name_tag = block.find('span', class_='name')
+                source_name = source_name_tag.text.strip() if source_name_tag else f"线路{idx+1}"
                 
-                for source_name, list_html in source_matches:
-                    play_sources.append(source_name.strip())
+                resolution_tag = block.find('span', class_='res')
+                resolution = resolution_tag.text.strip() if resolution_tag else ""
+                
+                # 组合线路名称和分辨率
+                full_source_name = f"{source_name} ({resolution})" if resolution else source_name
+                play_sources.append(full_source_name)
+                
+                episodes = []
+                if pp_data and 'lines' in pp_data and len(pp_data['lines']) > idx:
+                    urls = pp_data['lines'][idx][3]
                     
-                    # 提取剧集
-                    episode_pattern = r'<a[^>]*data-sou_idx="\d+"[^>]*>([^<]+)</a>'
-                    episode_matches = re.findall(episode_pattern, list_html)
-                    
-                    episodes = []
-                    for idx, ep_name in enumerate(episode_matches):
-                        episodes.append(f"{ep_name.strip()}${idx}")
-                    
-                    if episodes:
-                        play_urls.append("#".join(episodes))
-            
+                    if isinstance(urls, list) and urls:
+                        for ep_idx, url in enumerate(urls):
+                            if isinstance(url, str) and any(url.endswith(fmt) for fmt in self.VIDEO_FORMATS):
+                                # 修复集数命名逻辑
+                                episode_name_match = re.search(r'ep-([\d\w]+)', url)
+                                if episode_name_match:
+                                    episode_name = f"第{episode_name_match.group(1)}集"
+                                elif len(urls) == 1:
+                                    episode_name = "全集"
+                                else:
+                                    episode_name = f"第{ep_idx+1}集"
+                                    
+                                episodes.append(f"{episode_name}${url}")
+                
+                if episodes:
+                    play_urls.append("#".join(episodes))
+                else:
+                    play_urls.append("")
+
             vod = {
                 "vod_id": vod_id,
                 "vod_name": title,
@@ -415,9 +409,10 @@ class Spider(Spider):
             google_search_url = f"https://www.google.com/search?q={quote(key)}&sitesearch=xiaoyakankan.com"
             self.log(f"构造Google搜索URL: {google_search_url}")
             
+            # 伪装更多请求头
             headers = {
-                "User-Agent": self.ua,
-                "Referer": self.get_current_host(),
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+                "Referer": "https://www.google.com/",
                 "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
                 "Accept-Encoding": "gzip, deflate, br",
                 "Connection": "keep-alive"
@@ -434,38 +429,44 @@ class Spider(Spider):
             
             try:
                 soup = BeautifulSoup(r.text, 'html.parser')
-                # 寻找包含链接和标题的元素
-                search_results_div = soup.find_all('div', {'data-hveid': re.compile(r'\d+')})
-                
-                for item in search_results_div:
-                    a_tag = item.find('a', href=re.compile(r'https?://'))
-                    if not a_tag:
-                        continue
-                    
+                # 寻找所有包含搜索结果的a标签
+                all_links = soup.find_all('a', href=re.compile(r'/url\?q='))
+
+                for a_tag in all_links[:15]:  # 限制最多15个结果
                     link = a_tag['href']
                     
-                    # 检查链接是否属于目标站点
-                    if self.get_current_host() not in link:
-                        continue
+                    # 解析真实URL
+                    parsed_url = urlparse(link)
+                    query_params = parse_qs(parsed_url.query)
                     
-                    # 尝试从链接中提取影片ID和标题
-                    vod_id_match = re.search(r'/post/([^/]+)\.html', link)
-                    if not vod_id_match:
-                        continue
-                    
-                    vod_id = vod_id_match.group(1)
-                    title_tag = item.find('h3')
-                    title = title_tag.text.strip() if title_tag else "未知标题"
-                    
-                    vod = {
-                        "vod_id": vod_id,
-                        "vod_name": title,
-                        # Google搜索结果通常不包含影片封面，这里留空
-                        "vod_pic": "",
-                        "vod_remarks": "Google搜索结果"
-                    }
-                    
-                    result["list"].append(vod)
+                    if 'q' in query_params:
+                        real_link = query_params['q'][0]
+                        
+                        # 检查链接是否属于目标站点
+                        if self.get_current_host() in real_link:
+                            # 尝试从链接中提取影片ID
+                            vod_id_match = re.search(r'/post/([^/]+)\.html', real_link)
+                            if not vod_id_match:
+                                continue
+                            
+                            vod_id = vod_id_match.group(1)
+                            
+                            # 获取标题和图片（这里因为Google搜索结果没有图片，所以图片留空）
+                            title_tag = a_tag.find('h3')
+                            if not title_tag:
+                                # 有时标题在父级或其他元素中
+                                title_tag = a_tag.find('div', class_='g')
+                            
+                            title = title_tag.text.strip() if title_tag else "未知标题"
+
+                            vod = {
+                                "vod_id": vod_id,
+                                "vod_name": title,
+                                "vod_pic": "",
+                                "vod_remarks": "Google搜索结果"
+                            }
+                            
+                            result["list"].append(vod)
                 
             except Exception as e:
                 self.log(f"解析Google搜索结果失败：{str(e)}", "ERROR")
