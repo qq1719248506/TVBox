@@ -1,5 +1,5 @@
 {
-  "spider": "./spider.txt;md5;bd80a882fd5bff8d2634175591b3f179",
+  "spider": "./spider.txt;md5;bf6103fb145b9d4f5e376cef49ee4ee7",
   "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
   "sites": [
     {
@@ -56,21 +56,28 @@
       }
     },
     {
-      "key": "加菲",
-      "name": "加菲",
+      "key": "冷心",
+      "name": "冷心",
       "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppQi",
+      "api": "csp_AppMuou",
       "ext": {
-        "url": "",
-        "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj1.txt",
-        "dataKey": "dksvndkaAjekakcE",
-        "dataIv": "dksvndkaAjekakcE",
-        "deviceId": "",
-        "version": "",
-        "ua": ""
+        "url": "http://app.789dd.cn",
+        "name": "火猫影视"
       }
     },
+    {
+      "key": "金牌",
+      "name": "金牌",
+      "type": 3,
+      "api": "csp_AppMuou",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "url": "",
+        "site": "https://muouapp.oss-cn-hangzhou.aliyuncs.com/MUOUAPP/godbbq.txt",
+        "name": "金牌影院（请断网再安装）"
+      }
+    },    
     {
       "key": "咖啡",
       "name": "咖啡",
@@ -447,23 +454,7 @@
         "version": "",
         "ua": ""
       }
-    },    
-    {
-      "key": "布雷",
-      "name": "布雷",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "https://cms.bl4k.cc",
-        "site": "",
-        "dataKey": "B7uaxcwdpX2dww82",
-        "dataIv": "B7uaxcwdpX2dww82",
-        "deviceId": "",
-        "version": "",
-        "ua": ""
-      }
-    },    
+    },        
     {
       "key": "五八",
       "name": "五八",
@@ -507,22 +498,6 @@
         "site": "https://dyyztvappapigoodgx.68.gy:12689/ciwk28vu38io8/apiurl.txt",
         "dataKey": "dyyztvapiappyyds",
         "dataIv": "dyyztvapiappyyds",
-        "deviceId": "",
-        "version": "",
-        "ua": ""
-      }
-    },
-    {
-      "key": "外剧",
-      "name": "外剧",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "https://guowaiju.com",
-        "site": "",
-        "dataKey": "7xv16h7qgkrs9b1p",
-        "dataIv": "7xv16h7qgkrs9b1p",
         "deviceId": "",
         "version": "",
         "ua": ""
@@ -632,20 +607,6 @@
         "dataIv": "qkxnwkfjwpcnwycl",
         "deviceId": "",
         "version": ""
-      }
-    },
-    {
-      "key": "萝卜",
-      "name": "萝卜",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "https://apiapplbys.lbys.app:5678",
-        "dataKey": "apiapplbyskey168",
-        "dataIv": "apiapplbyskey168",
-        "deviceId": "",
-        "version": "107"
       }
     },
     {
@@ -2350,6 +2311,7 @@
   ]
 
 }
+
 
 
 
