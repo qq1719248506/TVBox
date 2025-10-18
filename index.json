@@ -1542,17 +1542,7 @@
       "changeable": 1,
       "api": "csp_XBPQ",
       "ext": "./XBPQ/三八影院.json"
-    },    
-    {
-      "key": "小鸭看看",
-      "name": "看看",
-      "type": 3,
-      "api": "./py/小鸭看看.py",
-      "searchable": 1,
-      "changeable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },    
+    },        
     {
       "key": "量子资源",
       "name": "量子",
@@ -2314,6 +2304,7 @@
   ]
 
 }
+
 
 
 
