@@ -1,5 +1,5 @@
 {
-  "spider": "./spider.txt;md5;dbe639527df26d6a0fd4f7c9256be475",
+  "spider": "./spider.txt;md5;9780196440483da9302c2a20e85703c6",
   "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
   "sites": [
     {
@@ -252,6 +252,21 @@
       }
     },
     {
+      "key": "星空",
+      "name": "星空",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "http://xkcms.xkgzs.xyz",
+        "site": "",
+        "dataKey": "AJcdjkAjkdJDkvcd",
+        "dataIv": "AJcdjkAjkdJDkvcd",
+        "deviceId": "",
+        "version": ""
+      }
+    },    
+    {
       "key": "于浅",
       "name": "于浅",
       "type": 3,
@@ -266,6 +281,21 @@
         "version": ""
       }
     },
+    {
+      "key": "数字",
+      "name": "数字",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "http://app1-0-0.87333.cc",
+        "site": "",
+        "dataKey": "VwsHxkCViDXEExWa",
+        "dataIv": "VwsHxkCViDXEExWa",
+        "deviceId": "",
+        "version": ""
+      }
+    },    
     {
       "key": "火锅",
       "name": "火锅",
@@ -439,23 +469,7 @@
         "version": "",
         "ua": ""
       }
-    },    
-    {
-      "key": "豆丁",
-      "name": "豆丁",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "http://45.66.157.77:9427",
-        "site": "",
-        "dataKey": "Xasdasd!123123dd",
-        "dataIv": "Xasdasd!123123dd",
-        "deviceId": "",
-        "version": "",
-        "ua": ""
-      }
-    },    
+    },        
     {
       "key": "稀饭",
       "name": "稀饭",
@@ -2304,6 +2318,7 @@
   ]
 
 }
+
 
 
 
