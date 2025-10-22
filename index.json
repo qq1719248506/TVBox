@@ -30,6 +30,12 @@
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 0
+    },
+    {
+      "key": "三六零",
+      "name": "360",
+      "type": 3,
+      "api": "csp_SP360"
     },    
     {
       "key": "热播影视",
@@ -1774,6 +1780,35 @@
   ],
   "parses": [
     {
+      "name": "推荐",
+      "type": 1,
+      "url": "http://niiuma.qi-simple.top//nn.php?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "bilibili",
+          "1905"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.9.1"
+        }
+      }
+    },    
+    {
       "name": "无上",
       "type": "1",
       "url": "https://mfjx.iwsyy.xyz/?url=",
@@ -2318,6 +2353,7 @@
   ]
 
 }
+
 
 
 
