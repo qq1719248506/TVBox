@@ -1166,7 +1166,6 @@
       "name": "即看",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
       "ext": {
         "分类url": "https://www.jktv.app/show/{cateId}--------{catePg}---.html",
         "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
@@ -1177,7 +1176,6 @@
       "name": "地瓜",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
       "ext": {
         "分类url": "http://22hre.dgzhongde.com/show/{cateId}--------{catePg}---{year}.html",
         "分类": "电影$1#电视剧$2#综艺$3#动漫$4#爽文短剧$30#伦理片$36#"
@@ -2278,6 +2276,7 @@
   ]
 
 }
+
 
 
 
