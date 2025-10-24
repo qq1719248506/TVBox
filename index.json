@@ -1,5 +1,5 @@
 {
-  "spider": "./spider.txt;md5;d0bb248fc392d455afb29928a94501b1",
+  "spider": "./spider.txt;md5;305a27aa992f82f46c8e16d248e356b0",
   "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
   "sites": [
     {
@@ -100,6 +100,33 @@
         "token": "71ef95295e56f3dfce2d008b1b07dc83f20f2bd8c5444202b6957587c9a5e57e",
         "ua": ""
       }
+    },
+    {
+      "key": "秒看",
+      "name": "秒看",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "site": "https://mk1080.top/get.txt",
+        "dataKey": "c60d88b2eep53za8",
+        "dataIv": "c60d88b2eep53za8",
+        "token": "06caee3952a4c97d1ad4c766c875a99d3fa83aa68f46188823600d59ebba4469",
+        "ua": "okhttp/3.10.0"
+      }
+    },
+    {
+      "key": "清风",
+      "name": "清风",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "http://qfys.myqf.asia",
+        "dataKey": "vpsj6z4e7scbjbis",
+        "dataIv": "vpsj6z4e7scbjbis",
+        "token": "29bbbd580560c7b9eae5dc91994de7552c07082de436389dabc85e7da919e9fb"
+      }
     },    
     {
       "key": "咖啡",
@@ -115,22 +142,6 @@
         "deviceId": "",
         "version": "101",
         "ua": ""
-      }
-    },
-    {
-      "key": "哔滴",
-      "name": "哔滴",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppQi",
-      "ext": {
-        "url": "",
-        "site": "https://ooxooxooxooxoo-1259561579.cos.ap-chengdu.myqcloud.com/ip.json",
-        "dataKey": "5ae8ee4bb95ea0ce",
-        "dataIv": "5ae8ee4bb95ea0ce",
-        "deviceId": "",
-        "version": "120",
-        "ua": "okhttp/3.10.0 BDYS/109.0.0.8"
       }
     },
     {
@@ -2353,6 +2364,7 @@
   ]
 
 }
+
 
 
 
