@@ -1475,19 +1475,6 @@
       "changeable": 1,
       "api": "csp_XBPQ",
       "ext": "./XBPQ/三八影院.json"
-    },
-    {
-      "key": "追剧大师",
-      "name": "追剧",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar": "./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
-      "ext": {
-        "副标题": "",
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "分类url": "https://ptt.red/zh-hans/p/;;mrc"
-     }
     },        
     {
       "key": "量子资源",
@@ -2279,6 +2266,7 @@
   ]
 
 }
+
 
 
 
