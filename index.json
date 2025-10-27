@@ -1693,6 +1693,36 @@
   ],
   "parses": [
     {
+      "name": "综合",
+      "type": 1,
+      "url": "http://1.95.112.195:8889/get?url=",
+      "ext": {
+        "flag": [
+          "qq",
+          "腾讯",
+          "qiyi",
+          "爱奇艺",
+          "奇艺",
+          "youku",
+          "优酷",
+          "sohu",
+          "搜狐",
+          "letv",
+          "乐视",
+          "mgtv",
+          "芒果",
+          "tnmb",
+          "seven",
+          "bilibili",
+          "1905"
+        ],
+        "header": {
+          "User-Agent": "okhttp/4.1.6",
+          "token": "8900000919"
+        }
+      }
+    }    
+    {
       "name": "推荐",
       "type": 1,
       "url": "http://niiuma.qi-simple.top//nn.php?url=",
@@ -2266,6 +2296,7 @@
   ]
 
 }
+
 
 
 
