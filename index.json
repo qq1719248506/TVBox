@@ -1,5 +1,5 @@
 {
-  "spider": "./spider.txt;md5;bacccc64f741a9631155ee76cfb05a17",
+  "spider": "./spider.txt;md5;05ec03c3c5702e6ba990f56ebc53984a",
   "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
   "sites": [
     {
@@ -1721,7 +1721,7 @@
           "token": "8900000919"
         }
       }
-    }    
+    },   
     {
       "name": "推荐",
       "type": 1,
@@ -2296,6 +2296,7 @@
   ]
 
 }
+
 
 
 
