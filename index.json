@@ -1170,29 +1170,18 @@
         "分类url": "http://22hre.dgzhongde.com/show/{cateId}--------{catePg}---{year}.html",
         "分类": "电影$1#电视剧$2#综艺$3#动漫$4#爽文短剧$30#伦理片$36#"
      }
-    },
-		{
-			"key": "西瓜视频",
-			"name": "西瓜",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=西瓜视频",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},    
-		{
-			"key": "小鸭子看看",
-			"name": "看看",
-			"type": 4,
-			"api": "http://zhangqun1818.serv00.net:5052/?sp=小鸭子看看",
-			"style": {
-				"type": "rect",
-				"ratio": 1.33
-			},
-			"changeable": 1
-		},    
+    },    
+	{
+	  "key": "小鸭子看看",
+	  "name": "看看",
+	  "type": 4,
+	  "api": "http://zhangqun1818.serv00.net:5052/?sp=小鸭子看看",
+	  "style": {
+		"type": "rect",
+		"ratio": 1.33
+	  },
+	  "changeable": 1
+	},    
     {
       "key": "漫国",
       "name": "漫国",
@@ -2318,6 +2307,7 @@
   ]
 
 }
+
 
 
 
