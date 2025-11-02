@@ -953,16 +953,6 @@
       "changeable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
-    {
-      "key": "小鸭看看",
-      "name": "小鸭",
-      "type": 3,
-      "api": "./py/小鸭看看.py",
-      "searchable": 1,
-      "changeable": 1,
-      "quickSearch": 1,
-      "filterable": 1
     },	  
     {
       "key": "厂长影视",
@@ -2315,6 +2305,7 @@
   ]
 
 }
+
 
 
 
