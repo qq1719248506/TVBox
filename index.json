@@ -85,32 +85,29 @@
       }
     },
     {
-      "key": "余白",
-      "name": "余白",
+      "key": "优势",
+      "name": "优势",
       "type": 3,
       "quickSearch": 1,
       "api": "csp_AppGet",
       "ext": {
-        "url": "https://app.yb4k.top",
-        "dataKey": "pk5CemuwgQ4gh8dl",
-        "dataIv": "pk5CemuwgQ4gh8dl",
-        "token": "71ef95295e56f3dfce2d008b1b07dc83f20f2bd8c5444202b6957587c9a5e57e"
+        "url": "http://zxy-ys.810211.dpdns.org",
+        "dataKey": "1234567890123456",
+        "dataIv": "1234567890123456"
       }
     },
     {
-      "key": "秒看",
-      "name": "秒看",
+      "key": "爱影",
+      "name": "爱影",
       "type": 3,
       "quickSearch": 1,
-      "api": "csp_AppGet",
+      "api": "csp_AppQi",
       "ext": {
-        "site": "https://mk1080.top/get.txt",
-        "dataKey": "c60d88b2eep53za8",
-        "dataIv": "c60d88b2eep53za8",
-        "token": "06caee3952a4c97d1ad4c766c875a99d3fa83aa68f46188823600d59ebba4469",
-        "ua": "okhttp/3.10.0"
+        "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/qj2.txt",
+        "dataKey": "sada21321sdq231d",
+        "dataIv": "sada21321sdq231d"
       }
-    },    
+    },        
     {
       "key": "咖啡",
       "name": "咖啡",
@@ -301,19 +298,6 @@
         "dataKey": "uI1TkPJC8B46AyN3",
         "dataIv": "uI1TkPJC8B46AyN3"
       }
-    },
-    {
-      "key": "万能",
-      "name": "万能",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "https://wnvod.cc",
-        "dataKey": "5uBvur6znNUmE3zb",
-        "dataIv": "5uBvur6znNUmE3zb",
-        "ua": "myapp/1.0.3"
-      }
     },    
     {
       "key": "坚果",
@@ -363,19 +347,7 @@
         "dataKey": "ab4e9a421675f14b",
         "dataIv": "ab4e9a421675f14b"
       }
-    },            
-    {
-      "key": "米奇",
-      "name": "米奇",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "http://www.milkidc.cn",
-        "dataKey": "20c79c979da8db0f",
-        "dataIv": "20c79c979da8db0f"
-      }
-    },    
+    },                
     {
       "key": "星星",
       "name": "星星",
@@ -387,18 +359,6 @@
         "dataKey": "123456789StarAni",
         "dataIv": "123456789StarAni",
         "ua": "okhttp/3.10.0 BDYS/109.0.0.8"
-      }
-    },
-    {
-      "key": "像素",
-      "name": "像素",
-      "type": 3,
-      "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "https://mcvod.top",
-        "dataKey": "cnmbknmbtounimab",
-        "dataIv": "cnmbknmbtounimab"
       }
     },        
     {
@@ -2315,6 +2275,7 @@
   ]
 
 }
+
 
 
 
