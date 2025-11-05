@@ -55,18 +55,18 @@
       "quickSearch": 0,
       "filterable": 0
     },
-		{
-			"key": "土豆视频",
-			"name": "土豆",
-			"type": 4,
-			"api": "https://learnpython.ggff.net/py_tudou"
-		},
+	{
+	  "key": "土豆视频",
+	  "name": "土豆",
+	  "type": 4,
+	  "api": "https://learnpython.ggff.net/py_tudou"
+	},
     {
       "key":"武享吧",
       "name":"搏击",
       "type":3,
       "playerType":"2",
-      "api":"https://tvbox.catvod.com/js/drpy2.min.js",
+      "api":"./js/drpy2.min.js",
       "ext":"./js/武享吧.js"
     },
     {
