@@ -1,5 +1,5 @@
 {
-  "spider": "../jar/custom_spider.jar",
+  "spider": "./spider.txt",
   "lives": [
     {
       "name": "XtreamCode",
@@ -55,6 +55,20 @@
       "quickSearch": 0,
       "filterable": 0
     },
+		{
+			"key": "土豆视频",
+			"name": "土豆",
+			"type": 4,
+			"api": "https://learnpython.ggff.net/py_tudou"
+		},
+    {
+      "key":"武享吧",
+      "name":"搏击",
+      "type":3,
+      "playerType":"2",
+      "api":"https://tvbox.catvod.com/js/drpy2.min.js",
+      "ext":"./js/武享吧.js"
+    },
     {
       "key": "瓜子影视",
       "name": "瓜子",
@@ -69,14 +83,7 @@
       "name": "优质",
       "type": 3,
       "api": "csp_XBPQ",
-      "ext": "./XBPQ/优质.json"
-    },
-    {
-      "key": "三九影视",
-      "name": "三九",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "./XBPQ/三九.json"
+      "ext": "./XBPQ/优质资源.json"
     },
     {
       "key": "量子资源",
@@ -101,18 +108,99 @@
       ]
     },
     {
+      "key":"魔爪采集",
+      "name":"魔爪",
+      "type":1,
+      "api":"https://mozhuazy.com/api.php/provide/vod/?ac=list",
+      "categories":[
+        "国产剧",
+        "国产动漫",
+        "短剧",
+        "爱情片",
+        "科幻片",
+        "动作片",
+        "喜剧片",
+        "冒险片",
+        "悬疑片",
+        "犯罪片",
+        "惊悚片",
+        "战争片",
+        "恐怖片",
+        "香港剧",
+        "台湾剧",
+        "日本剧",
+        "韩国剧",
+        "泰国剧",
+        "海外剧",
+        "日韩动漫",
+        "欧美动漫",
+        "港台动漫",
+        "海外动漫",
+        "大陆综艺",
+        "日韩综艺",
+        "欧美综艺",
+        "港台综艺"
+      ]
+    },
+    {
+      "key":"糖豆",
+      "name":"糖豆",
+      "type":3,
+      "api":"csp_XBPQ",
+      "jar":"./jars/XBPQ.jar",
+      "ext":{
+        "\u526f\u6807\u9898":"\u516c\u5b50\u4e13\u5c5e",
+        "请求头":"User-Agent$MOBILE_UA",
+        "编码":"UTF-8",
+        "分类url":"https://tdys.cc/;;!"
+      }
+    },
+    {
+      "key":"看戏网",
+      "name":"看戏",
+      "type":3,
+      "api":"csp_XBPQ",
+      "jar":"./jars/XBPQ.jar",
+      "ext":{
+        "\u526f\u6807\u9898":"\u516c\u5b50\u4e13\u5c5e",
+        "请求头":"User-Agent$MOBILE_UA",
+        "编码":"UTF-8",
+        "分类url":"https://www.kanxiw.com;;!"
+      }
+    },
+    {
       "key": "555影视",
       "name": "555",
       "type": 3,
       "api": "csp_XBPQ",
-      "ext": "./XBPQ/三五.json"
+      "ext": "./XBPQ/三五电影.json"
     },
     {
-      "key": "飞流视频",
-      "name": "飞流",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": "./XBPQ/飞流.json"
+      "key":"哈哈影院",
+      "name":"哈哈",
+      "type":3,
+      "api":"csp_XBPQ",
+      "ext":{
+        "\u526f\u6807\u9898":"\u516c\u5b50\u4e13\u5c5e",
+        "请求头":"User-Agent$MOBILE_UA",
+        "编码":"UTF-8",
+        "分类url":"https://www.hahads.com/show/{cateId}-{area}-{by}--{lang}----{catePg}---{year}.html",
+        "分类":"电影$1#电视剧$2#综艺$3#动漫$4#伦理$20"
+      }
+    },
+    {
+      "key":"电影小镇",
+      "name":"小镇",
+      "type":3,
+      "api":"csp_XBPQ",
+      "searchable":1,
+      "ext":{
+        "主页url":"http://www.du88.cc",
+        "分类":"电影&电视剧&综艺&动漫&福利&伦理",
+        "分类值":"1&2&4&3&5&6",
+        "\u526f\u6807\u9898":"\u516c\u5b50\u4e13\u5c5e",
+        "分类url":"http://www.du88.cc/list/{cateId}_{catePg}.html"
+      }
     },
     {
       "key": "新橘子",
@@ -154,14 +242,14 @@
       "key": "电影猎手",
       "name": "猎手",
       "type": 3,
-      "api": "./py/猎手.py"
+      "api": "./py/猎手影视.py"
     },
     {
       "key": "移动",
       "name": "移动",
       "type": 3,
       "api": "csp_YDjisu",
-      "jar": "./jar/og.jar",	
+      "jar": "./jars/og.jar",	
       "searchable": 1,
       "changeable": 1
     },	    
@@ -645,6 +733,71 @@
         "dataiv": "qkxnwkfjwpcnwycl"
       }
     },
+    {
+      "key": "茅台",
+      "name": "茅台",
+      "type": 1,
+      "api": "https://caiji.maotaizy.cc/api.php/provide/vod/",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "记录片",
+        "伦理片",
+        "香港剧",
+        "欧美剧",
+        "台湾剧",
+        "海外剧"
+      ]
+    },        
+    {
+      "key": "豆瓣采集",
+      "name": "豆瓣",
+      "type": 1,
+      "api": "https://caiji.dbzy.tv/api.php/provide/vod/from/dbm3u8/at/josn/",
+      "searchable": 1,
+      "categories": [
+        "动作片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "记录片",
+        "台湾剧",
+        "香港剧",
+        "欧美剧",
+        "演唱会",
+        "伦理片"
+      ]      
+    },
+    {
+      "key": "如意",
+      "name": "如意",
+      "type": 1,
+      "api": "https://cj.rycjapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [
+        "动作片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "记录片",
+        "台湾剧",
+        "香港剧",
+        "欧美剧",
+        "伦理片"
+      ]      
+    },    
     {
       "key": "阿里盘搜",
       "name": "阿里",
