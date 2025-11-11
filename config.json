@@ -130,7 +130,7 @@
       "name":"糖豆",
       "type":3,
       "api":"csp_XBPQ",
-      "jar":"./jars/XBPQ.jar",
+      "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
       "ext":{
         "请求头":"User-Agent$MOBILE_UA",
         "编码":"UTF-8",
@@ -142,7 +142,7 @@
       "name":"看戏",
       "type":3,
       "api":"csp_XBPQ",
-      "jar":"./jars/XBPQ.jar",
+      "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
       "ext":{
         "请求头":"User-Agent$MOBILE_UA",
         "编码":"UTF-8",
@@ -183,7 +183,7 @@
       "name": "明星",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "./XBPQ/XBPQjar",
+      "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
       "ext": {
         "副标题": "欧歌专属",
         "请求头": "User-Agent$MOBILE_UA",
@@ -196,7 +196,7 @@
       "name": "鸭鸭",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "./XBPQ/XBPQjar",
+      "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
       "ext": {
         "副标题": "",
         "请求头": "User-Agent$MOBILE_UA",
@@ -209,7 +209,7 @@
       "name": "老王",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "./XBPQ/XBPQjar",
+      "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
       "ext": {
         "副标题": "",
         "请求头": "User-Agent$MOBILE_UA",
