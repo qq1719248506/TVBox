@@ -177,19 +177,46 @@
         "分类": "韩剧$tv-kr#台剧$tv-tw#陆剧$tv-cn#欧美剧$tv-west#日剧$tv-jp#港剧$tv-hk#动漫$anime#综艺$variety#纪录片$doc#",
         "简介": "劇情：&&</p"
      }
+    },
+    {
+      "key": "明星影视",
+      "name": "明星",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./XBPQ/XBPQjar",
+      "ext": {
+        "副标题": "欧歌专属",
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类url": "https://mxvod.com/;;!H"
+      }
     },	  
     {
-      "key":"哈哈影院",
-      "name":"哈哈",
-      "type":3,
-      "api":"csp_XBPQ",
-      "ext":{
-        "请求头":"User-Agent$MOBILE_UA",
-        "编码":"UTF-8",
-        "分类url":"https://www.hahads.com/show/{cateId}-{area}-{by}--{lang}----{catePg}---{year}.html",
-        "分类":"电影$1#电视剧$2#综艺$3#动漫$4#伦理$20"
+      "key": "小鸭影视",
+      "name": "鸭鸭",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./XBPQ/XBPQjar",
+      "ext": {
+        "副标题": "",
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类url": "https://777tv.ai/;;!H"
       }
     },
+    {
+      "key": "老王影视",
+      "name": "老王",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./XBPQ/XBPQjar",
+      "ext": {
+        "副标题": "",
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",
+        "分类url": "https://www.laowang.co/;;!H"
+      }
+    },    
     {
       "key":"电影小镇",
       "name":"小镇",
@@ -198,7 +225,7 @@
       "searchable":1,
       "ext":{
         "主页url":"http://www.du88.cc",
-        "分类":"电影&电视剧&综艺&动漫&福利&伦理",
+        "分类":"电影&电视剧&综艺&动漫",
         "分类值":"1&2&4&3&5&6",
         "分类url":"http://www.du88.cc/list/{cateId}_{catePg}.html"
       }
