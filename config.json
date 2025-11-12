@@ -288,6 +288,18 @@
       }
     },
     {
+      "key": "一一",
+      "name": "一一",
+      "type": 3,
+      "api": "csp_AppMuou",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "url": "http://app.yiyi521.top",
+        "name": "YIYI影视"
+      }
+    },	  
+    {
       "key": "冷心",
       "name": "冷心",
       "type": 3,
@@ -327,6 +339,19 @@
         "dataiv": "1234567890123456"
       }
     },
+    {
+      "key": "瑞奇影视",
+      "name": "瑞奇",
+      "type": 3,
+      "searchable": 1,
+      "api": "./py/AppGet.py",
+      "ext": {
+        "host": "http://rqxk.gdata.fun",
+		"api": "/api.php/getappapi",  
+        "dataKey": "yangruiqiYsapp00",
+        "dataIv": "yangruiqiYsapp00"
+      }
+    },	  
     {
       "key": "爱影_APP",
       "name": "爱影",
