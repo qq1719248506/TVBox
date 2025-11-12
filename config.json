@@ -178,6 +178,30 @@
         "简介": "劇情：&&</p"
      }
     },
+	{
+	  "key":"悟空影视",
+	  "name":"悟空",
+	  "type":3,
+	  "api":"csp_XBPQ",
+	  "ext":{
+		"请求头":"User-Agent$MOBILE_UA",
+		"编码":"UTF-8",
+		"分类url":"https://www.chinasumadang.com/sumadangVS/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
+		"分类":"电影$1#电视剧$2#动漫$4#综艺$3#短剧$44",
+		"线路数组":"hl-tabs-btn hl-slide-swiper&&</a",
+		"线路标题":"",
+		"简介":""
+	  }
+	},  
+	{
+	  "key":"魅影视频",
+	  "name":"魅影",
+	  "type":3,
+	  "api":"csp_XBPQ",
+	  "ext":{
+	  "分类url":"https://www.hangtong168.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html;;!"
+	  }
+	},  
     {
       "key": "明星影视",
       "name": "明星",
@@ -185,7 +209,7 @@
       "api": "csp_XBPQ",
       "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
       "ext": {
-        "副标题": "欧歌专属",
+        "副标题": "",
         "请求头": "User-Agent$MOBILE_UA",
         "编码": "UTF-8",
         "分类url": "https://mxvod.com/;;!H"
@@ -204,30 +228,37 @@
         "分类url": "https://777tv.ai/;;!H"
       }
     },
-    {
-      "key": "老王影视",
-      "name": "老王",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
-      "ext": {
-        "副标题": "",
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "分类url": "https://www.laowang.co/;;!H"
-      }
-    },    
+	{ 
+	  "key": "老王影视",
+	  "name": "老王",
+	  "type": 3,
+	  "api": "csp_XBPQ",
+	  "ext": {
+		"简介":"video-info-content vod_content\">&&</div>",
+		"数组": "<a&&module-item-pic",
+		"副标题":"module-item-text\">&&</div>",
+		"状态":"集数：&&</div>",
+		"线路数组":"module-tab-item tab-item&&</small>",
+		"播放数组":"module-blocklist scroll-box&&</div>",
+		"搜索url": "https://laowang.co/s.html?wd={wd}",
+		"搜索数组": "module-item-pic&&video-info",
+		"搜索标题": "alt=\"&&\">",
+		"搜索图片": "data-src=\"&&\"",
+		"分类url":"https://laowang.co/vs/{cateId}-{area}--{class}-----{catePg}---{year}.html",
+		"分类":"短剧$5#电视剧$2#电影$1#动漫$4#综艺$3"
+	  }
+	},  
     {
       "key":"电影小镇",
       "name":"小镇",
       "type":3,
       "api":"csp_XBPQ",
+	  "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",	
       "searchable":1,
-      "ext":{
-        "主页url":"http://www.du88.cc",
-        "分类":"电影&电视剧&综艺&动漫",
-        "分类值":"1&2&4&3&5&6",
-        "分类url":"http://www.du88.cc/list/{cateId}_{catePg}.html"
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",      
+        "分类url":"http://dyxz.tv/;;!H"
       }
     },
     {
@@ -950,6 +981,74 @@
         "ratio": 1.597
       }
     },
+    {
+      "key": "武术",
+      "name": "武术",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": {
+        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
+        "json": "./json/儿童武术.json"
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      }
+    },
+    {
+      "key": "地理",
+      "name": "地理",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": {
+        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
+        "json": "./json/小灯塔地理.json"
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      }
+    },
+    {
+      "key": "科学",
+      "name": "科学",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": {
+        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
+        "json": "./json/小灯塔科学.json"
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      }
+    },	  
+    {
+      "key": "编程",
+      "name": "编程",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": {
+        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
+        "json": "./json/儿童编程.json"
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      }
+    },	  
     {
       "key": "push_agent",
       "name": "Push",
