@@ -1,5 +1,5 @@
 {
-  "spider": "./jars/oug.jar",
+  "spider": "./jars/og.jar",
   "lives": [
     {
       "name": "XtreamCode",
@@ -364,11 +364,16 @@
       "api": "./py/猎手影视.py"
     },
     {
+      "key": "零度影视",
+      "name": "零度",
+      "type": 3,
+      "api": "./py/零度影视.py"
+    },	  
+    {
       "key": "移动",
       "name": "移动",
       "type": 3,
-      "api": "csp_YDjisu",
-      "jar": "./jars/og.jar",	
+      "api": "csp_YDjisu",	
       "searchable": 1,
       "changeable": 1
     },	    
@@ -929,7 +934,16 @@
         "欧美剧",
         "伦理片"
       ]      
-    },    
+    },
+    {
+      "key": "音海",
+      "name": "音海",
+      "type": 3,
+      "api": "csp_YinHai",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },	  
     {
       "key": "阿里盘搜",
       "name": "阿里",
