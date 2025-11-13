@@ -86,6 +86,27 @@
       "ext": "./XBPQ/优质资源.json"
     },
     {
+      "key": "浮世影院",
+      "name": "浮世",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "./XBPQ/浮世影院.json"
+    },
+    {
+      "key": "太乙影视",
+      "name": "太乙",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "./XBPQ/太乙影视.json"
+    },
+    {
+      "key": "泡菜影视",
+      "name": "泡菜",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "./XBPQ/泡菜影视.json"
+    },	  
+    {
       "key": "量子资源",
       "name": "量子",
       "type": 1,
