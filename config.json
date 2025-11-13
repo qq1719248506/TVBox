@@ -55,6 +55,12 @@
       "quickSearch": 0,
       "filterable": 0
     },
+    {
+      "key": "csp_SP360",
+      "name": "360",
+      "type": 3,
+      "api": "csp_SP360"
+    },	  
 	{
 	  "key": "土豆视频",
 	  "name": "土豆",
@@ -145,6 +151,18 @@
       "name": "无尽",
       "type": 1,
       "api": "https://api.wujinapi.net/api.php/provide/vod/"
+    },
+    {
+      "key":"枝枝影视",
+      "name":"枝枝",
+      "type":3,
+      "api":"csp_XBPQ",
+      "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
+      "ext":{
+        "请求头":"User-Agent$MOBILE_UA",
+        "编码":"UTF-8",
+        "分类url":"https://zzoc.cc/;;!"
+      }
     },	  
     {
       "key":"糖豆",
