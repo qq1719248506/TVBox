@@ -111,7 +111,13 @@
       "type": 3,
       "api": "csp_XBPQ",
       "ext": "./XBPQ/泡菜影视.json"
-    },	  
+    },
+	{
+	  "key": "py集合",
+	  "name": "PY",
+	  "type": 4,
+	  "api": "http://zhangqun1818.serv00.net/py.php"
+	},	  
     {
       "key": "量子资源",
       "name": "量子",
