@@ -113,6 +113,39 @@
       "ext": "./XBPQ/泡菜影视.json"
     },
 	{
+	  "key": "即看影视",
+	  "name": "即看",
+	  "type": 3,
+	  "api": "./py/skapp.py",
+	  "ext": {
+		"host": "https://skyappdata-1321528676.cos.accelerate.myqcloud.com/4kapp/appipr.txt",
+		"key": "ygcnbckhcuvygdyb",
+		"iv": "4023892775143708"
+	  }
+	},
+	{
+	  "key": "月亮影视",
+	  "name": "月亮",
+	  "type": 3,
+	  "api": "./py/skapp.py",
+	  "ext": {
+		"host": "http://sk.13tv.top:6542/assets/dd.txt",
+		"key": "ygcnbcgeomivjoyn",
+		"iv": "8628532671143708"
+	  }	
+	},
+	{
+	  "key": "看客联盟",
+	  "name": "看客",
+	  "type": 3,
+	  "api": "./py/skapp.py",
+	  "ext": {
+		"host": "https://kankelm.cn:2024/appdomain.txt",
+		"key": "ygcnbcvybqqckwqy",
+		"iv": "1583560747143708"
+	  }
+	},  
+	{
 	  "key": "py集合",
 	  "name": "PY",
 	  "type": 4,
@@ -319,11 +352,11 @@
       "key": "新橘子",
       "name": "橘子",
       "type": 3,
-      "api": "csp_AppMuou",
+      "api": "./py/AppMuou.py",
       "searchable": 1,
       "changeable": 1,
       "ext": {
-        "site": "https://muouapp.oss-cn-hangzhou.aliyuncs.com/MUOUAPP/1687532407.txt",
+        "host": "https://muouapp.oss-cn-hangzhou.aliyuncs.com/MUOUAPP/1687532407.txt",
         "name": "新橘子影视",
         "version": "4.2.0"
       }
@@ -332,11 +365,11 @@
       "key": "金牌影院",
       "name": "金牌",
       "type": 3,
-      "api": "csp_AppMuou",
+      "api": "./py/AppMuou.py",
       "searchable": 1,
       "changeable": 1,
       "ext": {
-        "site": "https://muouapp.oss-cn-hangzhou.aliyuncs.com/MUOUAPP/godbbq.txt",
+        "host": "https://muouapp.oss-cn-hangzhou.aliyuncs.com/MUOUAPP/godbbq.txt",
         "name": "金牌影院（请断网再安装）",
         "version": "4.2.0"
       }
@@ -345,11 +378,11 @@
       "key": "一一",
       "name": "一一",
       "type": 3,
-      "api": "csp_AppMuou",
+      "api": "./py/AppMuou.py",
       "searchable": 1,
       "changeable": 1,
       "ext": {
-        "url": "http://app.yiyi521.top",
+        "host": "http://app.yiyi521.top",
         "name": "YIYI影视"
       }
     },	  
@@ -357,10 +390,11 @@
       "key": "冷心",
       "name": "冷心",
       "type": 3,
-      "api": "csp_AppMuou",
+      "api": "./py/AppMuou.py",
       "ext": {
-        "url": "http://app.789dd.cn",
-        "name": "火猫影视"
+        "host": "http://app.789dd.cn",
+        "name": "火猫影视",
+		"version": "4.2.0"  
       }
     },	 
     {
