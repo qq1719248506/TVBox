@@ -124,17 +124,6 @@
 	  }
 	},
 	{
-	  "key": "月亮影视",
-	  "name": "月亮",
-	  "type": 3,
-	  "api": "./py/skapp.py",
-	  "ext": {
-		"host": "http://sk.13tv.top:6542/assets/dd.txt",
-		"key": "ygcnbcgeomivjoyn",
-		"iv": "8628532671143708"
-	  }	
-	},
-	{
 	  "key": "看客联盟",
 	  "name": "看客",
 	  "type": 3,
@@ -346,44 +335,6 @@
         "请求头": "User-Agent$MOBILE_UA",
         "编码": "UTF-8",      
         "分类url":"http://dyxz.tv/;;!H"
-      }
-    },
-    {
-      "key": "新橘子",
-      "name": "橘子",
-      "type": 3,
-      "api": "./py/AppMuou.py",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {
-        "host": "https://muouapp.oss-cn-hangzhou.aliyuncs.com/MUOUAPP/1687532407.txt",
-        "name": "新橘子影视",
-        "version": "4.2.0"
-      }
-    },
-    {
-      "key": "金牌影院",
-      "name": "金牌",
-      "type": 3,
-      "api": "./py/AppMuou.py",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {
-        "host": "https://muouapp.oss-cn-hangzhou.aliyuncs.com/MUOUAPP/godbbq.txt",
-        "name": "金牌影院（请断网再安装）",
-        "version": "4.2.0"
-      }
-    },
-    {
-      "key": "一一",
-      "name": "一一",
-      "type": 3,
-      "api": "./py/AppMuou.py",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {
-        "host": "http://app.yiyi521.top",
-        "name": "YIYI影视"
       }
     },	  
     {
@@ -611,6 +562,81 @@
       }
     },
     {
+      "key": "魔方_APP",
+      "name": "魔方",
+      "type": 3,
+      "api": "./py/AppGet.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "http://app.ybn-ooo.top",
+        "api": "/api.php/getappapi",
+        "datakey": "vcfgytu7654rtyui",
+        "dataiv": "vcfgytu7654rtyui"
+      }
+    },
+    {
+      "key": "柒月_APP",
+      "name": "柒月",
+      "type": 3,
+      "api": "./py/AppGet.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://www.ys.mk",
+        "api": "/api.php/getappapi",
+        "datakey": "mayday6770249ash",
+        "dataiv": "mayday6770249ash"
+      }
+    },
+    {
+      "key": "小猫_APP",
+      "name": "小猫",
+      "type": 3,
+      "api": "./py/AppGet.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "http://xywlkj.oss-cn-beijing.aliyuncs.com/wp-content/uploads/2024/12/1.txt",
+        "api": "/api.php/getappapi",
+        "datakey": "xmyxmyxywlkjxywl",
+        "dataiv": "xmyxmyxywlkjxywl"
+      }
+    },
+    {
+      "key": "茉莉_APP",
+      "name": "茉莉",
+      "type": 3,
+      "api": "./py/AppGet.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "http://zxy-ys.810211.dpdns.org",
+        "api": "/api.php/getappapi",
+        "datakey": "1234567890123456",
+        "dataiv": "1234567890123456"
+      }
+    },
+    {
+      "key": "茉莉_APP",
+      "name": "茉莉",
+      "type": 3,
+      "api": "./py/AppGet.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "https://qiliniao-1331306839.cos.ap-chengdu.myqcloud.com/jg.txt",
+        "api": "/api.php/getappapi",
+        "datakey": "2015692015692015",
+        "dataiv": "2015692015692015"
+      }
+    },	  
+    {
       "key": "星空_APP",
       "name": "星空",
       "type": 3,
@@ -731,21 +757,6 @@
       }
     },
     {
-      "key": "米奇_APP",
-      "name": "米奇",
-      "type": 3,
-      "api": "./py/AppGet.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "host": "http://www.milkidc.cn",
-        "api": "/api.php/getappapi",
-        "datakey": "20c79c979da8db0f",
-        "dataiv": "20c79c979da8db0f"
-      }
-    },
-    {
       "key": "星星_APP",
       "name": "星星",
       "type": 3,
@@ -818,21 +829,6 @@
         "api": "/api.php/getappapi",
         "datakey": "dyyztvapiappyyds",
         "dataiv": "dyyztvapiappyyds"
-      }
-    },
-    {
-      "key": "火狐_APP",
-      "name": "火狐",
-      "type": 3,
-      "api": "./py/AppGet.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "host": "http://huohu.yihn.cc",
-        "api": "/api.php/getappapi",
-        "datakey": "huohushipingetap",
-        "dataiv": "huohushipingetap"
       }
     },
     {
