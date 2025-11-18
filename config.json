@@ -56,11 +56,11 @@
       "filterable": 0
     },
     {
-      "key": "csp_SP360",
-      "name": "360",
-      "type": 3,
-      "api": "csp_SP360"
-    },	  
+      "key": "电影天堂",
+      "name": "天堂",
+      "type": 4,
+      "api": "https://py.doube.eu.org/spider?site=DianYingTanTang"
+    },    	  
 	{
 	  "key": "土豆视频",
 	  "name": "土豆",
