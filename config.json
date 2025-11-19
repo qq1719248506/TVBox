@@ -1,35 +1,5 @@
 {
   "spider": "./jars/ouge.jar",
-  "lives": [
-    {
-      "name": "XtreamCode",
-      "api": "csp_XtreamCode",
-      "url": "http://iptv.icsnleb.com:25461/player_api.php?username=12&password=12",
-      "epg": "http://iptv.icsnleb.com:25461/xmltv.php?username=12&password=12",
-      "ext": {
-        "live": true,
-        "vod": true,
-        "formats": [
-          "m3u8",
-          "ts"
-        ]
-      }
-    },
-    {
-      "name": "MQiTV",
-      "api": "csp_MQiTV",
-      "ext": [
-        {
-          "name": "Hotel A",
-          "url": "https://127.0.0.1:4433"
-        },
-        {
-          "name": "Hotel B",
-          "url": "http://127.0.0.1"
-        }
-      ]
-    }
-  ],
   "sites": [
     {
       "key": "豆瓣",
@@ -329,12 +299,12 @@
       "name":"8090",
       "type":3,
       "api":"csp_XBPQ",
-      "ext":{
-		"主页url": "https://www.hd8090.cc/",  
-        "请求头":"User-Agent$MOBILE_UA",
-        "编码":"UTF-8",
-        "分类url": "https://www.hd8090.cc/vodshow/cateId}-{area}-------{catePg}---.html",
-		"分类": "动作片$6#喜剧片$7#科幻片$8#恐怖片$9#战争片$11#纪录片$21#特色片$22#" 
+	  "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",	
+      "searchable":1,
+      "ext": {
+        "请求头": "User-Agent$MOBILE_UA",
+        "编码": "UTF-8",      
+        "分类url":"https://www.hd8090.cc/;;!H"
       }
     },	  
     {
