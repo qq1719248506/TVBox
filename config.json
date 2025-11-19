@@ -333,8 +333,8 @@
 		"主页url": "https://www.hd8090.cc/",  
         "请求头":"User-Agent$MOBILE_UA",
         "编码":"UTF-8",
-        "分类url":"https://www.hd8090.cc/vodshow/{cateid}-{area}-------{catepg}---.html",
-		"分类": "电影$1#电视剧$2#综艺$5#动漫$3#短剧大全$4#" 
+        "分类url": "https://www.hd8090.cc/vodshow/{cateId}--------{catePg}---.html;;!",
+		"分类": "电影$1#电视剧$2#综艺$5#动漫$3#短剧大全$4#纪录片$21#特色片$22#" 
       }
     },	  
     {
