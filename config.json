@@ -331,9 +331,11 @@
       "api":"csp_XBPQ",
       "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
       "ext":{
+		"主页url": "https://www.hd8090.cc/",  
         "请求头":"User-Agent$MOBILE_UA",
         "编码":"UTF-8",
-        "分类url":"https://www.hd8090.cc/;;!"
+        "分类url":"https://www.hd8090.cc/vodshow/{cateid}-{area}-------{catepg}---.html",
+		"分类": "电影$1#电视剧$2#综艺$5#动漫$3#短剧大全$4#" 
       }
     },	  
     {
