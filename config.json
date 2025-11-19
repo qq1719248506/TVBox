@@ -323,7 +323,28 @@
 		"分类url":"https://laowang.co/vs/{cateId}-{area}--{class}-----{catePg}---{year}.html",
 		"分类":"短剧$5#电视剧$2#电影$1#动漫$4#综艺$3"
 	  }
-	},  
+	},
+	{ 
+	  "key": "8090高清",
+	  "name": "8090",
+	  "type": 3,
+	  "api": "csp_XBPQ",
+	  "ext": {
+		"简介":"video-info-content vod_content\">&&</div>",
+		"数组": "<a&&module-item-pic",
+		"副标题": "<div class=\"module-item-text\">&&</div>",
+		"状态":"",
+		"线路数组": "data-dropdown&&</div>",
+		"播放数组":"sort-item\"&&</div>",
+		"搜索url": "https://www.hd8090.cc/vodsearch/{wd}----------{pg}---.html",
+		"搜索数组": "<div class=\"module-search-item\"&&</div",
+		"搜索标题": "alt=\"&&\">",
+		"搜索图片": "data-src=\"&&\"",
+		"跳转播放链接": "var player_*\"url\":\"&&\"", 
+		"分类url":"https://www.hd8090.cc/vodshow/{cateId}--------{catePg}---.html",
+		"分类":"电影$1#电视剧$2#综艺$5#动漫$3#短剧大全$4#"
+	  }
+	},	  
     {
       "key":"电影小镇",
       "name":"小镇",
