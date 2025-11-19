@@ -203,6 +203,13 @@
       "ext": "./XBPQ/三五电影.json"
     },
     {
+      "key": "三九影视",
+      "name": "三九",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "./XBPQ/三九影视.json"
+    },	  
+    {
       "key": "小鸭影音",
       "name": "小鸭",
       "type": 3,
@@ -304,7 +311,7 @@
       "ext": {
         "请求头": "User-Agent$MOBILE_UA",
         "编码": "UTF-8",      
-        "分类url":"https://www.hd8090.cc/;;!H"
+        "分类url":"https://www.hd8090.cc/;;!"
       }
     },	  
     {
