@@ -203,11 +203,11 @@
       "ext": "./XBPQ/三五电影.json"
     },
     {
-      "key": "三九影视",
-      "name": "三九",
+      "key": "8090高清",
+      "name": "8090",
       "type": 3,
       "api": "csp_XBPQ",
-      "ext": "./XBPQ/三九影视.json"
+      "ext": "./XBPQ/8090高清.json"
     },	  
     {
       "key": "小鸭影音",
@@ -268,19 +268,17 @@
         "分类url": "https://mxvod.com/;;!H"
       }
     },	  
-    {
-      "key": "小鸭影视",
-      "name": "鸭鸭",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",
-      "ext": {
-        "副标题": "",
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",
-        "分类url": "https://777tv.ai/;;!H"
-      }
-    },
+	{
+	  "key": "小鸭子看看",
+	  "name": "鸭鸭",
+	  "type": 4,
+	  "api": "http://zhangqun1818.serv00.net:5052/?sp=小鸭子看看",
+	  "style": {
+	  "type": "rect",
+	  "ratio": 1.33
+	  },
+	  "changeable": 1
+	},    
 	{ 
 	  "key": "老王影视",
 	  "name": "老王",
@@ -300,20 +298,7 @@
 		"分类url":"https://laowang.co/vs/{cateId}-{area}--{class}-----{catePg}---{year}.html",
 		"分类":"短剧$5#电视剧$2#电影$1#动漫$4#综艺$3"
 	  }
-	},
-    {
-      "key":"8090高清",
-      "name":"8090",
-      "type":3,
-      "api":"csp_XBPQ",
-	  "jar":"./jars/XBPQ.jar;md5;4d860d06ec233dbcb891b76055f099d5",	
-      "searchable":1,
-      "ext": {
-        "请求头": "User-Agent$MOBILE_UA",
-        "编码": "UTF-8",      
-        "分类url":"https://www.hd8090.cc/;;!"
-      }
-    },	  
+	},	  
     {
       "key":"电影小镇",
       "name":"小镇",
