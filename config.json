@@ -1,5 +1,5 @@
 {
-  "spider": "./jars/ouge.jar",
+  "spider": "./spider.txt",
   "sites": [
     {
       "key": "豆瓣",
@@ -325,12 +325,16 @@
       "api": "./py/零度影视.py"
     },	  
     {
-      "key": "移动",
+      "key": "移动盘搜",
       "name": "移动",
       "type": 3,
-      "api": "csp_YDjisu",	
+      "api": "csp_PanSou139",
       "searchable": 1,
-      "changeable": 1
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "cloudDrives": "mobile"
+      }
     },
     {
       "key": "私人",
@@ -1003,6 +1007,19 @@
         "伦理片"
       ]      
     },
+    {
+      "key": "盘它",
+      "name": "盘它",
+      "type": 3,
+      "api": "csp_PanWebShareCloudPT",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "style": {
+        "type": "list"
+      }
+    },	  
     {
       "key": "音海",
       "name": "音海",
