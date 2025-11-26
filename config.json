@@ -24,12 +24,6 @@
       "searchable": 1,
       "quickSearch": 0,
       "filterable": 0
-    },
-    {
-      "key": "电影天堂",
-      "name": "天堂",
-      "type": 4,
-      "api": "https://py.doube.eu.org/spider?site=DianYingTanTang"
     }, 
 	{
 	  "key": "土豆视频",
@@ -345,16 +339,6 @@
       "ext": "https://v.catcs.cc/api.php/v1.vod"
     },
     {
-      "key": "火猫",
-      "name": "火猫",
-      "type": 3,
-      "api": "csp_AppMuou",
-      "ext": {
-        "url": "http://app.789dd.cn",
-        "name": "火猫影视"
-      }
-    },
-    {
       "key": "羊羊",
       "name": "羊羊",
       "type": 3,
@@ -597,6 +581,50 @@
         "dataiv": "staraugust123456"
       }
     },
+    {
+      "key": "火猫_APP",
+      "name": "火猫",
+      "type": 3,
+      "api": "./py/AppGet.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "http://103.23.148.70:14500",
+        "api": "/api.php/getappapi",
+        "datakey": "J6AIORKJ3PQOJKM8",
+        "dataiv": "J6AIORKJ3PQOJKM8"
+      }
+    },
+    {
+      "key": "鹤雪_APP",
+      "name": "鹤雪",
+      "type": 3,
+      "api": "./py/AppGet.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "host": "http://hxys.07hx.shop",
+        "api": "/api.php/getappapi",
+        "datakey": "hex200762200762",
+        "dataiv": "hex200762200762"
+      }
+    },
+    {
+      "key": "新剧",
+      "name": "新剧",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "api": "./py/AppGet.py",
+      "ext": {
+        "host": "http://211.154.24.56:8369",
+		"api": "/api.php/getappapi", 
+        "dataKey": "685bf108bc47b67d",
+        "dataIv": "685bf108bc47b67d"
+     }
+    },	  
     {
       "key": "魔方_APP",
       "name": "魔方",
